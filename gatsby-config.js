@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/appnetwise",
   siteMetadata: {
     title: `Rewy - Gatsby React IT Startup & Technology Template`,
     description: `Gatsby React IT Startup & Technology Template`,
@@ -17,8 +18,8 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     "gatsby-transformer-remark",
-		"gatsby-plugin-sharp",
-		"gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
