@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import starIcon from "../../images/star-icon.png"
-import client1 from "../../images/testimonials/client1.jpg"
-import client2 from "../../images/testimonials/client2.jpg"
-import client3 from "../../images/testimonials/client3.jpg"
+import user1 from "../../images/tiago.jpg"
+import user2 from "../../images/bob.jpg"
+
 import shape from "../../images/shape/shape1.svg"
 
 import { Swiper, SwiperSlide } from "swiper/react"
@@ -21,8 +21,9 @@ const Testimonials = () => {
             </span>
             <h2>What Our Clients are Saying?</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+              At <b>Appnetwise</b>, we value our clients' trust and take pride
+              in exceeding their expectations with high-quality solutions. Don't
+              just take our word for it -here's what some of our clients say.
             </p>
           </div>
 
@@ -46,74 +47,77 @@ const Testimonials = () => {
             className="testimonials-slides"
           >
             <SwiperSlide>
-              <div className="single-testimonials-item">
+              <div
+                className="single-testimonials-box"
+                style={{ minHeight: "500px" }}
+              >
+                <img src={user1} className="shadow-sm" alt="testimonials" />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna ali.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Collaborating with Appnetwise has been a transformative
+                  experience for us. Their team's adaptability and profound
+                  technical expertise in cloud-native solutions, custom software
+                  development, and DevOps have been exceptional. What truly sets
+                  them apart is their ability to act swiftly and efficiently,
+                  ensuring our projects not only meet but exceed expectations.
+                  Their partnership has been invaluable in our journey.
                 </p>
 
                 <div className="client-info">
-                  <div className="d-flex justify-content-center align-items-center">
-                    <img src={client1} alt="testimonial" />
-                    <div className="title">
-                      <h3>Alex Maxwell</h3>
-                      <span>CEO at EnvyTheme</span>
-                    </div>
+                  <div className="title">
+                    <h3>Tiago Pina</h3>
+                    <span>Head of Engineering at Carbonplace</span>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="single-testimonials-item">
+              <div
+                className="single-testimonials-box"
+                style={{ minHeight: "500px" }}
+              >
+                <img src={user2} className="shadow-sm" alt="testimonials" />
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna ali.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Having Appnetwise on the build team as been a real boon to the
+                  delivery programme. Their professionalism and delivery cadence
+                  has really been something. Even though they are based in
+                  India, we found that their flexibility to work outside of
+                  their core hours really helped to form a strong global team.
+                  Also, the quality of their output has been top notch. The one
+                  element that I would pull out as their key USP is their
+                  ability to really listen to what we needed and to be able to
+                  pivot quickly and deliver quality output. I would not hesitate
+                  in recommending them.
                 </p>
 
                 <div className="client-info">
-                  <div className="d-flex justify-content-center align-items-center">
-                    <img src={client2} alt="testimonial" />
-                    <div className="title">
-                      <h3>David Warner</h3>
-                      <span>CEO at Envato</span>
-                    </div>
+                  <div className="title">
+                    <h3>Bob</h3>
+                    <span>CTO at Carbonplace</span>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
-
+            {/* 
             <SwiperSlide>
-              <div className="single-testimonials-item">
+              <div className="single-testimonials-box">
+                <img src={user3} className="shadow-sm" alt="testimonials" />
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna ali.
                   Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
                   maecenas accumsan lacus vel facilisis.
                 </p>
+
                 <div className="client-info">
-                  <div className="d-flex justify-content-center align-items-center">
-                    <img src={client3} alt="testimonial" />
-                    <div className="title">
-                      <h3>Sarah Taylor</h3>
-                      <span>CEO at ThemeForest</span>
-                    </div>
+                  <div className="title">
+                    <h3>Sarah Taylor</h3>
+                    <span>CEO at ThemeForest</span>
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
-
-          <div className="testimonials-view-btn text-center">
-            <Link to="/testimonials" className="default-btn">
-              <i className="flaticon-view"></i>
-              Check Out All Reviews <span></span>
-            </Link>
-          </div>
         </div>
 
         <div className="shape-img1">

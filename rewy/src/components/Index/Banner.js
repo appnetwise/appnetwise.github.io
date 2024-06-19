@@ -20,16 +20,30 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Secure IT Solutions Services
+                  Digital Transformation
                 </h1>
+                <h4
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                >
+                  STRATEGY EXECUTION
+                </h4>
+                <h4
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                >
+                  BREAK-THROUGH RESULTS
+                </h4>
 
                 <p
                   data-aos="fade-right"
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  From strategy to execution, accelerate business enablement and
+                  make your goals a reality.
                 </p>
 
                 <div

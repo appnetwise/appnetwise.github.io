@@ -1,7 +1,6 @@
 import React from "react"
 import service1 from "../../images/services/service1.png"
 import service2 from "../../images/services/service2.png"
-import starIcon from "../../images/star-icon.png"
 
 const OurServices = () => {
   return (
@@ -19,47 +18,55 @@ const OurServices = () => {
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 <div className="content">
-                  <span className="sub-title">
+                  {/* <span className="sub-title">
                     <img src={starIcon} alt="icon" /> Services
-                  </span>
+                  </span> */}
 
-                  <h2>Cloud Hosting Services</h2>
+                  <h2>Business Domain Experience</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                    We've worked across a wide range of industries, each with
+                    their specific needs and challenges. This gives us a unique
+                    perspective that we bring to every client relationship.{" "}
+                    <br />
+                    We take a proactive approach, looking closely at your entire
+                    ecosystem, bringing fresh perspective and insight to help
+                    you achieve results that bridge what is with what can be.
                   </p>
                   <ul className="about-list mb-0">
                     <li>
                       <i className="flaticon-tick"></i>
-                      Cloud Databases
+                      Carbon Market
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Website Hosting
+                      Audit & Taxation
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      File Storage
+                      Pensions
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Forex Trading
+                      Payments
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      File Backups
+                      Engineering
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Remote Desktop
+                      Logistic
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Email Servers
+                      Media and BroadCasting
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Hybrid Cloud
+                      Supply Chain Management
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>Open Banking & Finance
                     </li>
                   </ul>
                 </div>
@@ -77,48 +84,66 @@ const OurServices = () => {
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-content">
                 <div className="content">
-                  <span className="sub-title">
+                  {/* <span className="sub-title">
                     <img src={starIcon} alt="icon" /> Services
-                  </span>
+                  </span> */}
 
-                  <h2>Design & Development</h2>
+                  <h2>Technology Expertise</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                    We leverage the spectrum of our engineering and consulting
+                    resources across multi-cloud, API Enablement and software
+                    development, to work flexibly, seamlessly, and react quickly
+                    to client needs to reach their short and long term digital
+                    potential.
+                    <br /> We are technologists focused on accelerating digital
+                    delivery with deep practical experience in start-up,
+                    enterprise and public sector projects.
                   </p>
 
                   <ul className="our-mission-list mb-0">
                     <li>
                       <i className="flaticon-tick"></i>
-                      Responsive Design
+                      Cloud Native
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      React Development
+                      Data Analytics
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Apps Development
+                      Multi-cloud
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Laravel Development
+                      Microservices
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      UX/UI Design
+                      Event Driven
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      E-commerce Design
+                      CIAM
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Web Design
+                      API-LED Connectivity
                     </li>
                     <li>
                       <i className="flaticon-tick"></i>
-                      Print Ready Design
+                      Bespoke Software
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Blockchain
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      AI & ML
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Application Modernization
                     </li>
                   </ul>
                 </div>
@@ -134,6 +159,76 @@ const OurServices = () => {
         </div>
       </div>
       {/* End Service Right Image Style */}
+      <div className="about-area pb-100">
+        <div className="container-fluid">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12">
+              <div className="about-img">
+                <img src={service1} alt="service" />
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-md-12">
+              <div className="about-content">
+                <div className="content">
+                  {/* <span className="sub-title">
+                    <img src={starIcon} alt="icon" /> Services
+                  </span> */}
+
+                  <h2>Delivery Excellence</h2>
+                  <p>
+                    We work side-by-side with our clients as one team with a
+                    shared ambition to achieve extraordinary results. There's a
+                    practicality in our thinking, bringing an action orientation
+                    to our integrated expertise. <br />
+                    We leverage proven methodologies to identify gaps in
+                    execution capabilities, and work with our clients to define
+                    a step-by-step roadmap to orchestrate change and sustain
+                    impact.
+                  </p>
+                  <ul className="about-list mb-0">
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Agile
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      On-budget
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      On-time
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Quality Assurance
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      ROI
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Standards
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Compliant
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>
+                      Self-Sufficiency
+                    </li>
+                    <li>
+                      <i className="flaticon-tick"></i>Futur-Proof
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
