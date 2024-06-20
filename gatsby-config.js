@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/appnetwise",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Appnetwise`,
     description: `Appnetwise`,
