@@ -2,7 +2,7 @@ import React from "react"
 
 import starIcon from "../../images/star-icon.png"
 import user1 from "../../images/tiago.jpg"
-import user2 from "../../images/bob.jpg"
+import user2 from "../../images/user1.jpg"
 
 import shape from "../../images/shape/shape1.svg"
 
