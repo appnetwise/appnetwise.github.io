@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/appnetwise",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Rewy - Gatsby React IT Startup & Technology Template`,
     description: `Gatsby React IT Startup & Technology Template`,
