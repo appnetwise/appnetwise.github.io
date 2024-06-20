@@ -42,7 +42,10 @@ jobs:
         if: steps.cache-modules.outputs.cache-hit != 'true'
         run: npm install
       - name: Deploy to Pages
-        run: npm run deploy
+        run: |
+          git config --global user.email "github.workflow@appnetwise.com"
+          git config --global user.name "GitHub Workflow"
+          npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
