@@ -1,7 +1,7 @@
 import React from "react"
 import AOS from "aos"
 
-import partner1 from "../../images/partner/Carbonplace.svg"
+import partner1 from "../../images/partner/carbonplace.svg"
 import partner2 from "../../images/partner/partner2.png"
 
 const Partner = () => {
