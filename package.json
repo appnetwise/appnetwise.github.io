@@ -1,4 +1,5 @@
 {
+  "homepage": "https://appnetwise.github.io/appnetwise/",
   "name": "appnetwise",
   "private": true,
   "description": "Gatsby React IT Startup & Technology Template",
@@ -32,8 +33,8 @@
   ],
   "license": "0BSD",
   "scripts": {
-     "deploy": "gatsby build && gh-pages -d public -b gh-pages",
-    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
@@ -43,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "git@github.com:appnetwise/appnetwise.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/appnetwise/appnetwise/issues"
   },
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
