@@ -16,32 +16,35 @@ const WhyChooseUs = () => {
                 </span>
                 <h2>Why Choose Us?</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
+                  At <b>APPNETWISE</b>, we are team of innovative engineers with
+                  multiple years of expertise in Cloud adoption, Software
+                  engineering and FinTech.
                 </p>
                 <div className="inner-box">
                   <div className="single-item">
                     <div className="count-box">1</div>
-                    <h3>Data for All Your People</h3>
+                    <h3>Empowering Organizations with IT Solutions</h3>
                     <p>
-                      Dolor sit amet consectetur elit eiusmod tempor incidi dunt
-                      labore dolore magna aliqua enim.
+                      Passionate about empowering organizations by addressing
+                      their challenges with appropriate IT business solutions.
                     </p>
                   </div>
                   <div className="single-item">
                     <div className="count-box">2</div>
-                    <h3>A New Breed of AI</h3>
+                    <h3>Crafting Future-Ready Solutions</h3>
                     <p>
-                      Dolor sit amet consectetur elit eiusmod tempor incidi dunt
-                      labore dolore magna aliqua enim.
+                      Engaging in the latest technologies, we adopt a
+                      comprehensive approach to create sustainable, competitive
+                      and dependable solutions for shaping the future.
                     </p>
                   </div>
                   <div className="single-item">
                     <div className="count-box">3</div>
-                    <h3>Analytics Business</h3>
+                    <h3>One-Stop Tech Solutions for a Competitive Edge</h3>
                     <p>
-                      Dolor sit amet consectetur elit eiusmod tempor incidi dunt
-                      labore dolore magna aliqua enim.
+                      Our wide array of services gives our clients a competitive
+                      advantage, serving as a one-stop solution for all their
+                      technical requirements.
                     </p>
                   </div>
                 </div>

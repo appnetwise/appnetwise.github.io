@@ -11,6 +11,10 @@ const Navbar = () => {
     setCollapsed(!collapsed)
   }
 
+  const handleLogoClick = () => {
+    window.location.reload()
+    setCollapsed(true)
+  }
   React.useEffect(() => {
     let elementId = document.getElementById("navbar")
     document.addEventListener("scroll", () => {
@@ -35,12 +39,8 @@ const Navbar = () => {
         <div className="rewy-nav">
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light">
-              <Link
-                to="/"
-                onClick={() => setCollapsed(true)}
-                className="navbar-brand"
-              >
-                {/* <img src={logo} alt="logo" /> */}
+              <Link href="/" onClick={handleLogoClick} className="navbar-brand">
+                {/* <img src={logo} alt="Logo" /> */}
                 <h1 style={{ color: "#0c7264" }}>APPNETWISE</h1>
               </Link>
 
@@ -88,7 +88,7 @@ const Navbar = () => {
                         </Link>
                       </li>
 
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           to="/history"
                           activeClassName="active"
@@ -97,7 +97,7 @@ const Navbar = () => {
                         >
                           History
                         </Link>
-                      </li>
+                      </li> */}
 
                       <li className="nav-item">
                         <Link

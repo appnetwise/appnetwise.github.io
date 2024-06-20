@@ -183,6 +183,9 @@ a:hover {
   background-color: #fafafa;
 }
 
+.justify-content {
+  justify-content: center;
+}
 /* default-btn */
 .default-btn {
   border: none;
@@ -2354,6 +2357,8 @@ About Area CSS
 }
 .about-content .content .features-list li:hover {
   border-color: #0c7264;
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
 }
 .about-content .content .about-list {
   padding-left: 0;
@@ -2775,6 +2780,8 @@ Boxes Area CSS
 .single-boxes-item:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
+  transition: background-color 0.3s ease;
+  background-image: url(../../images/banner-bg.png);
 }
 
 .col-lg-4:nth-child(2) .single-boxes-item .shape1 {
@@ -3916,6 +3923,8 @@ How It's Work Area CSS
 }
 .single-process-box:hover {
   border-color: #0c7264;
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
 }
 .single-process-box:hover .number {
   transform: translateX(10px) rotate(5deg);

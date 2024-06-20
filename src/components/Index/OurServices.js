@@ -68,6 +68,10 @@ const OurServices = () => {
                     <li>
                       <i className="flaticon-tick"></i>Open Banking & Finance
                     </li>
+                    <li>
+                      <i className="flaticon-tick"></i> GreenIT (ESG &
+                      Sustainability)
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -220,7 +224,7 @@ const OurServices = () => {
                       Self-Sufficiency
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i>Futur-Proof
+                      <i className="flaticon-tick"></i>Future-Proof
                     </li>
                   </ul>
                 </div>

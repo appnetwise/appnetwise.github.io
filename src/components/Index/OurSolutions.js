@@ -15,7 +15,9 @@ const OurSolutions = () => {
               <img src={starIcon} alt="star" />
               Our Services
             </span>
-            <h2>We Different From Others Should Choose Us</h2>
+            <h2>
+              Enhance digital presence and drive growth with our services.
+            </h2>
           </div>
 
           <div className="row" style={{ justifyContent: "center" }}>

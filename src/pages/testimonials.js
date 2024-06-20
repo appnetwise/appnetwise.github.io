@@ -3,8 +3,7 @@ import Layout from "../components/_App/layout"
 import Seo from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner"
-import TestimonialsStyleOne from "../components/Testimonials/TestimonialsStyleOne"
-import TestimonialsStyleTwo from "../components/Testimonials/TestimonialsStyleTwo"
+import Testimonials from "../components/Index/Testimonials"
 import Footer from "../components/_App/Footer"
 
 const TestimonialsPage = () => {
@@ -19,9 +18,7 @@ const TestimonialsPage = () => {
         activePageText="Testimonials"
       />
 
-      <TestimonialsStyleOne />
-
-      <TestimonialsStyleTwo />
+      <Testimonials />
 
       <Footer />
     </Layout>

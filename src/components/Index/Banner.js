@@ -30,7 +30,7 @@ const Banner = () => {
                   STRATEGY EXECUTION
                 </h4>
                 <h4
-                  data-aos="fade-right"
+                  data-aos="fade-left"
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
