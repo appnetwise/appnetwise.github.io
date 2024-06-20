@@ -16,10 +16,6 @@ const OurSolutions = () => {
               Our Services
             </span>
             <h2>We Different From Others Should Choose Us</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
-            </p>
           </div>
 
           <div className="row" style={{ justifyContent: "center" }}>
