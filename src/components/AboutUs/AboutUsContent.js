@@ -1,5 +1,5 @@
 import React from "react"
-import aboutImage from "../../images/about/about-img5.png"
+import aboutImage from "../../images/about/about111.png"
 import starIcon from "../../images/star-icon.png"
 import icon4 from "../../images/icons/icon4.png"
 import icon5 from "../../images/icons/icon5.png"
@@ -13,8 +13,8 @@ const AboutUsContent = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div className="about-image">
-                <img src={aboutImage} alt="banner" />
+              <div className="about-image" >
+                <img src={aboutImage} alt="banner"/>
               </div>
             </div>
 

@@ -1,10 +1,10 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
-import process1 from "../../images/process/process1.png"
-import process2 from "../../images/process/process2.png"
-import process3 from "../../images/process/process3.png"
-import process4 from "../../images/process/process4.png"
-import process5 from "../../images/process/process5.png"
+import process1 from "../../images/process/approach111.png"
+import process2 from "../../images/process/approach222.png"
+import process3 from "../../images/process/approach666.jpg"
+import process4 from "../../images/process/approach777.jpg"
+import process5 from "../../images/process/about3333.jpg"
 import shape from "../../images/shape/circle-shape1.png"
 
 const HowItWork = () => {
@@ -14,7 +14,7 @@ const HowItWork = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">
-              <img src={starIcon} alt="about" />
+              <img src={starIcon} alt="about"  />
               How It's Work
             </span>
             <h2>Our Approach</h2>
@@ -30,7 +30,7 @@ const HowItWork = () => {
               <div className="single-process-box">
                 <div className="number">1</div>
                 <div className="image">
-                  <img src={process5} alt="about" />
+                  <img src={process5} alt="about" width="54%" />
                 </div>
                 <h3>Enable</h3>
                 <p>
@@ -44,7 +44,7 @@ const HowItWork = () => {
               <div className="single-process-box">
                 <div className="number">2</div>
                 <div className="image">
-                  <img src={process1} alt="about" />
+                  <img src={process1} alt="about" width="66%"/>
                 </div>
                 <h3>Advise</h3>
                 <p>
@@ -58,7 +58,7 @@ const HowItWork = () => {
               <div className="single-process-box">
                 <div className="number">3</div>
                 <div className="image">
-                  <img src={process2} alt="about" />
+                  <img src={process2} alt="about" width="54%" />
                 </div>
                 <h3>Build</h3>
                 <p>
@@ -72,7 +72,7 @@ const HowItWork = () => {
               <div className="single-process-box">
                 <div className="number">4</div>
                 <div className="image">
-                  <img src={process3} alt="about" />
+                  <img src={process3} alt="about" width="79%" />
                 </div>
                 <h3>Collaborate</h3>
                 <p>
@@ -86,7 +86,7 @@ const HowItWork = () => {
               <div className="single-process-box ">
                 <div className="number">5</div>
                 <div className="image">
-                  <img src={process4} alt="about" />
+                  <img src={process4} alt="about" width="53%" />
                 </div>
                 <h3>Deliver</h3>
                 <p>
