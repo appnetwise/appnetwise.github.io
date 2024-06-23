@@ -1,6 +1,8 @@
 import React from "react"
-import service1 from "../../images/services/service1.png"
-import service2 from "../../images/services/service2.png"
+import service1 from "../../images/banner22.jpg"
+import service2 from "../../images/banner33.png"
+import service3 from "../../images/banner44.jpg"
+
 
 const OurServices = () => {
   return (
@@ -168,7 +170,7 @@ const OurServices = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-img">
-                <img src={service1} alt="service" />
+                <img src={service3} alt="service" />
               </div>
             </div>
 

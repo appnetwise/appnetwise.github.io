@@ -1,9 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import starIcon from "../../images/star-icon.png"
-import icon1 from "../../images/services/service-icon1.png"
-import icon2 from "../../images/services/service-icon2.png"
-import icon3 from "../../images/services/service-icon3.png"
+import icon1 from "../../images/services/icon11c.png"
+import icon2 from "../../images/services/icon2c.png"
+import icon3 from "../../images/services/icon3c.png"
+import icon4 from "../../images/services/icon4c.png"
+import icon5 from "../../images/services/icon5c.png"
+import icon6 from "../../images/services/icon6.png"
+import icon7 from "../../images/services/icon7c.png"
+import icon8 from "../../images/services/icon8c.png"
 
 const OurSolutions = () => {
   return (
@@ -24,7 +29,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon1} alt="banner" />
+                  <img src={icon1} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/consulting-advisory">
@@ -51,7 +56,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon2} alt="banner" />
+                  <img src={icon2} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/cloud-adoption">Cloud Adoption</Link>
@@ -73,7 +78,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon3} alt="banner" />
+                  <img src={icon3} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/api-enablement">API Enablement</Link>
@@ -93,8 +98,8 @@ const OurSolutions = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
-                <div className="icon">
-                  <img src={icon3} alt="banner" />
+                <div className="icon" >
+                  <img src={icon4} alt="banner" width="20%"  />
                 </div>
                 <h3>
                   <Link to="/services/software-development">
@@ -120,7 +125,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon3} alt="banner" />
+                  <img src={icon5} alt="banner" width="20%"  />
                 </div>
                 <h3>
                   <Link to="/services/block-chain">Blockchain</Link>
@@ -142,7 +147,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon3} alt="banner" />
+                  <img src={icon6} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/service-details">AI & ML</Link>
@@ -163,7 +168,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon3} alt="banner" />
+                  <img src={icon7} alt="banner" width="20%"  />
                 </div>
                 <h3>
                   <Link to="/services/quality-assurance">
@@ -186,7 +191,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon3} alt="banner" />
+                  <img src={icon8} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/devops">DevOps Practices</Link>
@@ -211,4 +216,4 @@ const OurSolutions = () => {
   )
 }
 
-export default OurSolutions
+export default OurSolutions

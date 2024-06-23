@@ -1,6 +1,6 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
-import howItWork from "../../images/how-its-work.png"
+import howItWork from "../../images/about22.jpg"
 
 const WhyChooseUs = () => {
   return (

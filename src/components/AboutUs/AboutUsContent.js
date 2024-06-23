@@ -1,9 +1,9 @@
 import React from "react"
-import aboutImage from "../../images/about/about-img5.png"
+import aboutImage from "../../images/about/about111.png"
 import starIcon from "../../images/star-icon.png"
-import icon4 from "../../images/icons/icon4.png"
-import icon5 from "../../images/icons/icon5.png"
-import icon6 from "../../images/icons/icon6.png"
+import icon4 from "../../images/icons/ADVICEICON.png"
+import icon5 from "../../images/icons/BUILDICON.png"
+import icon6 from "../../images/icons/COLLOBORATEICON.png"
 import shape1 from "../../images/shape/circle-shape1.png"
 
 const AboutUsContent = () => {
@@ -13,8 +13,8 @@ const AboutUsContent = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div className="about-image">
-                <img src={aboutImage} alt="banner" />
+              <div className="about-image" >
+                <img src={aboutImage} alt="banner"/>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ const AboutUsContent = () => {
                     }}
                   >
                     <li>
-                      <img src={icon4} alt="banner" />
+                      <img src={icon4} alt="banner" width="20%" />
                       <h3>Advise</h3>
                       <p>
                         Assessing your readiness and creating a roadmap to
@@ -58,7 +58,7 @@ const AboutUsContent = () => {
                       </p>
                     </li>
                     <li>
-                      <img src={icon5} alt="banner" />
+                      <img src={icon5} alt="banner" width="20%"/>
                       <h3>Build</h3>
                       <p>
                         Building solutions that balance today’s needs with
@@ -66,7 +66,7 @@ const AboutUsContent = () => {
                       </p>
                     </li>
                     <li>
-                      <img src={icon6} alt="banner" />
+                      <img src={icon6} alt="banner" width="20%"/>
                       <h3>Collaborate</h3>
                       <p>
                         Co-creating and developing a transformative program
