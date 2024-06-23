@@ -91,22 +91,20 @@ const AboutUsContent = () => {
                 <div className="about-text">
                   <h3>Our History</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                    Founded on a passion for innovation, we've continuously
+                    evolved to meet the needs of our clients. Our journey is a
+                    testament to our commitment to excellence and progress
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Activate Listening
+                      <i className="flaticon-tick"></i> Born from Innovation
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Brilliant minds
+                      <i className="flaticon-tick"></i> Trusted Partner
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Better. Best. Wow!
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i> Branding it better!
+                      <i className="flaticon-tick"></i>Happy Clients
                     </li>
                   </ul>
                 </div>
@@ -116,22 +114,20 @@ const AboutUsContent = () => {
                 <div className="about-text">
                   <h3>Our Mission</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                    Empower businesses through innovative solutions and
+                    unparalleled support. We strive to create value and drive
+                    success for our clients and partners.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Creating. Results.
+                      <i className="flaticon-tick"></i> Empowering Businesses
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Expect more
+                      <i className="flaticon-tick"></i> Bridging the Gap
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Good thinking
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i> In real we trust
+                      <i className="flaticon-tick"></i> Collaborative Spirit
                     </li>
                   </ul>
                 </div>
@@ -141,22 +137,24 @@ const AboutUsContent = () => {
                 <div className="about-text">
                   <h3>Who we are</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                    We are a team of dedicated professionals driven by passion
+                    and expertise. Our diverse skill sets and collaborative
+                    approach enable us to deliver exceptional solutions tailored
+                    to our clients' needs.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Stay real. Always.
+                      <i className="flaticon-tick"></i> DevOps Masters
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> We have you covered
+                      <i className="flaticon-tick"></i> Software Artisans
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> We turn heads
+                      <i className="flaticon-tick"></i>Cloud Visionaries
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Your brand, promoted
+                      <i className="flaticon-tick"></i> Testing Experts
                     </li>
                   </ul>
                 </div>

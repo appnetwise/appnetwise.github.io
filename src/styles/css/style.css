@@ -154,9 +154,15 @@ a:hover {
 .pt-70 {
   padding-top: 70px;
 }
+.pt-40 {
+  padding-top: 40px;
+}
 
 .pb-70 {
   padding-bottom: 70px;
+}
+.pb-40 {
+  padding-bottom: 40px;
 }
 
 .bg-e3fbff {
@@ -2164,6 +2170,16 @@ textarea.form-control {
   margin-top: 0;
 }
 
+.services-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 2;
+}
+
 .seo-agency-banner {
   position: relative;
   z-index: 1;
@@ -2272,6 +2288,29 @@ Solutions Area CSS
 }
 .single-solutions-box:hover .icon {
   animation: bounce 2s;
+}
+
+.single-solutions-box-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.single-solutions-box-hover::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/banner-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: top 0.5s;
+  z-index: -1;
+}
+
+.single-solutions-box-hover:hover::before {
+  top: 0;
 }
 
 /*================================================
@@ -2406,8 +2445,8 @@ About Area CSS
   z-index: -1;
 }
 .about-content .content .about-list li:hover i {
-  background-color: #0c7264;
-  color: #ffffff;
+  background-color: #ffff;
+  color: #221638;
 }
 .about-content .content .content-list {
   padding-left: 0;
@@ -2664,8 +2703,8 @@ Our Mission Area CSS
   z-index: -1;
 }
 .our-mission-content .content .our-mission-list li:hover i {
-  background-color: #0c7264;
-  color: #ffffff;
+  background-color: #ffff;
+  color: #221638;
 }
 .our-mission-content .content .features-list {
   padding-left: 0;
@@ -3104,8 +3143,15 @@ Services Area CSS
   border-radius: 5px;
   z-index: 1;
   overflow: hidden;
+  max-height: 430px;
 }
+.slick-slide {
+  padding: 0 12px;
+}
+
 .single-services-box .icon {
+  justify-content: center;
+  display: flex;
   margin-bottom: 25px;
 }
 .single-services-box h3 {
@@ -5832,7 +5878,6 @@ Overview Area CSS
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  margin-bottom: 100px;
 }
 .overview-box:last-child {
   margin-bottom: 0;
@@ -6141,9 +6186,13 @@ Industries Serve Area CSS
   position: relative;
   z-index: 1;
 }
+.align-right {
+  text-align: right; /* Align text to the right */
+  margin-left: auto; /* Push the element to the right edge */
+  opacity: 1; /* Show the element */
+}
 
 .single-industries-serve-box {
-  margin-bottom: 30px;
   position: relative;
   overflow: hidden;
   color: #221638;
@@ -9335,6 +9384,7 @@ Page Title Area CSS
   border-bottom: 1px solid #fafafa;
   padding-top: 200px;
   padding-bottom: 100px;
+  margin-top: 80px;
 }
 .page-title-area .shape-img1 {
   top: auto;
@@ -10938,3 +10988,13 @@ Go Top CSS
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   transform: translateY(-5px);
 } /*# sourceMappingURL=style.css.map */
+
+.bold-text-color {
+  color: #0c7264;
+}
+
+.overview-box .overview-content-box {
+
+  padding-left: 15px;
+  padding-right: 15px;
+}

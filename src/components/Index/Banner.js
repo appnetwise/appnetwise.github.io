@@ -23,16 +23,17 @@ const Banner = () => {
                   Digital Transformation
                 </h1>
                 <h4
-                  data-aos="fade-right"
+                  data-aos="fade-left"
                   data-aos-duration="1200"
-                  data-aos-delay="200"
+                  data-aos-delay="300"
                 >
                   STRATEGY EXECUTION
                 </h4>
                 <h4
-                  data-aos="fade-left"
+                  data-aos="fade-right"
                   data-aos-duration="1200"
                   data-aos-delay="200"
+                  // style={{ textAlign: "right" }}
                 >
                   BREAK-THROUGH RESULTS
                 </h4>

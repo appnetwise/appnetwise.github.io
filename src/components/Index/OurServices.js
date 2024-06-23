@@ -33,39 +33,39 @@ const OurServices = () => {
                     you achieve results that bridge what is with what can be.
                   </p>
                   <ul className="about-list mb-0">
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Carbon Market
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Audit & Taxation
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Pensions
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Payments
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Engineering
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Logistic
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Media and BroadCasting
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Supply Chain Management
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>Open Banking & Finance
                     </li>
                     <li>
@@ -105,47 +105,47 @@ const OurServices = () => {
                   </p>
 
                   <ul className="our-mission-list mb-0">
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Cloud Native
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Data Analytics
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Multi-cloud
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Microservices
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Event Driven
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       CIAM
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       API-LED Connectivity
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Bespoke Software
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Blockchain
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       AI & ML
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Application Modernization
                     </li>
@@ -191,39 +191,39 @@ const OurServices = () => {
                     impact.
                   </p>
                   <ul className="about-list mb-0">
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Agile
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       On-budget
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       On-time
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Quality Assurance
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       ROI
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Standards
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Compliant
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Self-Sufficiency
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>Future-Proof
                     </li>
                   </ul>

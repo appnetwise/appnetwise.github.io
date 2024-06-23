@@ -27,7 +27,7 @@ const OurSolutions = () => {
                   <img src={icon1} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">
+                  <Link to="/services/consulting-advisory">
                     Consulting & Advisory
                   </Link>
                 </h3>
@@ -38,7 +38,10 @@ const OurSolutions = () => {
                   components.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link
+                  to="/services/consulting-advisory"
+                  className="default-btn"
+                >
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -51,7 +54,7 @@ const OurSolutions = () => {
                   <img src={icon2} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Cloud Adoption</Link>
+                  <Link to="/services/cloud-adoption">Cloud Adoption</Link>
                 </h3>
                 <p>
                   Leverage Public Cloud with our risk-mitigating expertise. We
@@ -60,7 +63,7 @@ const OurSolutions = () => {
                   enablement journey.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/cloud-adoption" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -73,7 +76,7 @@ const OurSolutions = () => {
                   <img src={icon3} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">API Enablement</Link>
+                  <Link to="/services/api-enablement">API Enablement</Link>
                 </h3>
                 <p>
                   We empower agility through API-led integration, connecting
@@ -82,7 +85,7 @@ const OurSolutions = () => {
                   development.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/api-enablement" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -94,7 +97,7 @@ const OurSolutions = () => {
                   <img src={icon3} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">
+                  <Link to="/services/software-development">
                     Software Development
                   </Link>
                 </h3>
@@ -105,7 +108,10 @@ const OurSolutions = () => {
                   success in dynamic environments.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link
+                  to="/services/software-development"
+                  className="default-btn"
+                >
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -117,7 +123,7 @@ const OurSolutions = () => {
                   <img src={icon3} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Blockchain</Link>
+                  <Link to="/services/block-chain">Blockchain</Link>
                 </h3>
                 <p>
                   Blockchain's decentralized ledger revolutionizes industries
@@ -126,7 +132,7 @@ const OurSolutions = () => {
                   intermediaries and reducing fraud risks.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/block-chain" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -148,7 +154,7 @@ const OurSolutions = () => {
                   landscape, fostering collaboration and success.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/ai-ml" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -160,7 +166,9 @@ const OurSolutions = () => {
                   <img src={icon3} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">Quality Assurance</Link>
+                  <Link to="/services/quality-assurance">
+                    Quality Assurance
+                  </Link>
                 </h3>
                 <p>
                   Unlock quality-driven success with our proven methodologies
@@ -169,7 +177,7 @@ const OurSolutions = () => {
                   customer satisfaction.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/quality-assurance" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>
@@ -181,7 +189,7 @@ const OurSolutions = () => {
                   <img src={icon3} alt="banner" />
                 </div>
                 <h3>
-                  <Link to="/services/service-details">DevOps Practices</Link>
+                  <Link to="/services/devops">DevOps Practices</Link>
                 </h3>
                 <p>
                   DevOps goes beyond hype, fostering collaboration and
@@ -190,7 +198,7 @@ const OurSolutions = () => {
                   responsiveness to customer needs.
                 </p>
 
-                <Link to="/services/service-details" className="default-btn">
+                <Link to="/services/devops" className="default-btn">
                   <i className="flaticon-right"></i>
                   Read More <span></span>
                 </Link>

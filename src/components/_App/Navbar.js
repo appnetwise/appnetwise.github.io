@@ -135,23 +135,83 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          to="/services"
+                          to="/services/consulting-advisory"
                           activeClassName="active"
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                         >
-                          Services
+                          Consulting & Advisory
                         </Link>
                       </li>
 
                       <li className="nav-item">
                         <Link
-                          to="/services/service-details"
+                          to="/services/cloud-adoption"
                           activeClassName="active"
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                         >
-                          Service Details
+                          Cloud Adoption
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/services/api-enablement"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          API Enablement
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/services/software-development"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Software Development
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/services/quality-assurance"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Quality Assurance
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/services/block-chain"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Blockchain
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/services/ai-ml"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          AI & ML
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/services/devops"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          DevOps Practices
                         </Link>
                       </li>
                     </ul>
