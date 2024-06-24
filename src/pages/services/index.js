@@ -3,9 +3,10 @@ import Layout from "../../components/_App/layout"
 import Seo from "../../components/_App/seo"
 import Navbar from "../../components/_App/Navbar"
 import PageBanner from "../../components/Common/PageBanner"
-import ServicesOne from "../../components/Services/ServicesOne"
-import StartProject from "../../components/Common/StartProject"
+
 import Footer from "../../components/_App/Footer"
+
+import OurSolutions from "../../components/Index/OurSolutions"
 
 const ServicesPage = () => {
   return (
@@ -19,9 +20,7 @@ const ServicesPage = () => {
         activePageText="Services"
       />
 
-      <ServicesOne />
-
-      <StartProject />
+      <OurSolutions />
 
       <Footer />
     </Layout>

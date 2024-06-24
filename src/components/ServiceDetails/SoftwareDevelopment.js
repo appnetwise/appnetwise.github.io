@@ -1,13 +1,40 @@
 import React from "react"
 import service2 from "../../images/services/service2.png"
+import service from "../../images/services/software-development.jpg"
+import ServiceSidebar from "./ServiceSidebar"
+import SliderComponent from "./SliderComponent"
 
 const SoftwareDevelopment = () => {
+  const slidesData = [
+    {
+      content:
+        "We focus to improve the efficiency of existing Software environment, enabling new business capabilities on next-generation architecture and technologies through Reactive, Distributed and Integration Systems.",
+      features: [
+        "KAFKA",
+        "STREAMING ETL",
+        "SPRING BOOT",
+        " SQL /NO SQL",
+        "MULESOFT",
+      ],
+      image: service2,
+    },
+
+    {
+      content:
+        "Partnering with us, our clients get access to disruptive tools and technologies, and bespoke solutions - from concept, to integration services, to go-to-market - helping them stay ahead of the curve.",
+      features: ["CI / CD", "CONTAINERIZATION", "K8S", " SERVICE MESH"],
+      image: service2,
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
-          <div className="row justify-content">
-            <div className="col-md-12">
+          <div className="row ">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
               <div className="services-details-desc justify-content">
                 {/* <span className="sub-title">Consulting & Advisory</span> */}
                 <div>
@@ -42,9 +69,9 @@ const SoftwareDevelopment = () => {
 
                 <div className="ptb-70">
                   <h2 className="main-banner-image">What we do?</h2>
-                  <div className="row">
+                  <div className="row justify-content pt-40">
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -64,7 +91,7 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -89,7 +116,7 @@ const SoftwareDevelopment = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -113,100 +140,12 @@ const SoftwareDevelopment = () => {
                 <h2 className="main-banner-image">
                   Software... constantly innovating
                 </h2>
-
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        We focus to improve the efficiency of existing Software
-                        environment, enabling new business capabilities on
-                        next-generation architecture and technologies through
-                        Reactive, Distributed and Integration Systems.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> KAFKA
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> STREAMING ETL
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> SPRING BOOT
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> SQL /NO SQL
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> MULESOFT
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="overview-box">
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        Partnering with us, our clients get access to disruptive
-                        tools and technologies, and bespoke solutions - from
-                        concept, to integration services, to go-to-market -
-                        helping them stay ahead of the curve.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> CI / CD
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> CONTAINERIZATION
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> OAS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> K8S
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> SERVICE MESH
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-12">
+              <ServiceSidebar />
             </div>
           </div>
         </div>

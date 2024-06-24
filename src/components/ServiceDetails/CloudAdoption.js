@@ -1,13 +1,39 @@
 import React from "react"
+import ServiceSidebar from "./ServiceSidebar"
 import service2 from "../../images/services/service2.png"
+import service from "../../images/services/cloud-adoption.jpg"
+import SliderComponent from "./SliderComponent"
 
 const CloudAdoption = () => {
+  const slidesData = [
+    {
+      content:
+        "With our experience of implementing cloud Native solutions, we help in modernising current or creating new cloud-native applications.We empower clients in cloud-first thinking and  help in the design and build of solutions using cloud-agnostic tools.",
+      features: [
+        "CLOUD-FIRST",
+        "CLOUD-NATIVE",
+        "CLOUD-AGNOSTIC",
+        "APPLICATION MODERNISATION",
+      ],
+      image: service2,
+    },
+
+    {
+      content:
+        "Our multi Cloud capabilities and expertise guide your cloud adoption journey, from planning to migration and build, with minimal business disruption, and help leverage the best cloud services specific to requirements.",
+      features: ["LANDING ZONE", "IAAS", "PAAS", "K8S", "DEVOPS", "DEVSECOPS"],
+      image: service2,
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
           <div className="row justify-content">
-            <div className="col-md-12">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
               <div className="services-details-desc justify-content">
                 {/* <span className="sub-title">Consulting & Advisory</span> */}
                 <div>
@@ -43,11 +69,8 @@ const CloudAdoption = () => {
                 </blockquote>
                 <div className="ptb-70">
                   <h2 className="main-banner-image">What we do?</h2>
-                  <div className="row">
-                    <div
-                      className="col-lg-4 col-sm-6"
-                      style={{ display: "flex" }}
-                    >
+                  <div className="row justify-content pt-40">
+                    <div className="col-sm-6" style={{ display: "flex" }}>
                       <div className="single-solutions-box single-solutions-box-hover">
                         <div className="icon">
                           <i className="flaticon-rocket"></i>
@@ -70,10 +93,7 @@ const CloudAdoption = () => {
                       </div>
                     </div>
 
-                    <div
-                      className="col-lg-4 col-sm-6"
-                      style={{ display: "flex" }}
-                    >
+                    <div className="col-sm-6" style={{ display: "flex" }}>
                       <div className="single-solutions-box single-solutions-box-hover">
                         <div className="icon">
                           <i className="flaticon-laptop"></i>
@@ -91,7 +111,7 @@ const CloudAdoption = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -118,110 +138,12 @@ const CloudAdoption = () => {
                   Cloud... Private | Public | Hybrid
                 </h2>
 
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        With our experience of implementing cloud Native
-                        solutions, we help in modernising current or creating
-                        new cloud-native applications.
-                      </p>
-                      <p>
-                        We empower clients in cloud-first thinking and help in
-                        the design and build of solutions using cloud-agnostic
-                        tools.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Cloud-First
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Cloud-Native
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Cloud-Agnostic
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Application
-                            Modernisation
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="overview-box">
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        Our multi Cloud capabilities and expertise guide your
-                        cloud adoption journey, from planning to migration and
-                        build, with minimal business disruption, and help
-                        leverage the best cloud services specific to
-                        requirements.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Landing Zone
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> IAAS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> PAAS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> SAAS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> K8S
-                          </span>
-                        </li>{" "}
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> DevOps
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> SAAS
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-12">
+              <ServiceSidebar />
             </div>
           </div>
         </div>

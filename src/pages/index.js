@@ -33,9 +33,9 @@ const IndexPage = () => (
 
     <Testimonials />
 
-    <Partner />
+    {/* <Partner /> */}
 
-    <OurBlog />
+    {/* <OurBlog /> */}
 
     {/* <ProjectStartArea /> */}
 

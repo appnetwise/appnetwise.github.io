@@ -2889,8 +2889,6 @@ Funfacts Area CSS
 }
 .single-funfacts-box:hover {
   border-color: #0c7264;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
-  transform: translateY(-10px);
 }
 
 .single-funfacts-item {
@@ -10997,4 +10995,12 @@ Go Top CSS
 .overview-box .overview-content-box {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  margin-left: -12px !important;
+  margin-right: -12px !important;
+  color: #0c7264 !important;
+  font-size: 14px !important;
 }

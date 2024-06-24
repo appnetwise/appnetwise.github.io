@@ -1,14 +1,55 @@
 import React from "react"
 import service2 from "../../images/services/service2.png"
+import service from "../../images/services/api.jpg"
 import image from "../../images/api-flow.png"
+import ServiceSidebar from "./ServiceSidebar"
+import SliderComponent from "./SliderComponent"
 
 const ApiEnablement = () => {
+  const slidesData = [
+    {
+      content:
+        "Drawing from extensive experience spanning various industries and standards, including PSD2, open banking,pensions dashboard, payment, and taxation, we collaborate closely with clients throughout the entire API enablement journey, from API strategy formulation to API product development.",
+      features: [
+        "PSD2",
+        "OPEN BANKING",
+        "PENSIONS",
+        "APPLICATION PAYMENTS",
+        "OPTIMISE",
+        "TAXATION",
+      ],
+      image: service2,
+    },
+
+    {
+      content:
+        "Our expertise encompasses the development of APIs across various domains, including Public, Private, Partner Interconnects, Experience, Process, and System APIs. Leveraging API-first principles and an array of industry-standard technologies, we ensure that APIs are designed and implemented to meet the diverse needs of our clients.",
+      features: [
+        "API FIRST",
+        "API LED",
+        "RAML",
+        "GRAPHQL",
+        "DEVOPS",
+        "ASYNC API",
+      ],
+      image: service2,
+    },
+    {
+      content:
+        "    As a vendor-neutral partner, our approach is driven by  both client requirements and organizational capabilities. We carefully assess and recommend the most suitable technologies, to accelerate API enablement initiatives and facilitate application modernization efforts.",
+      features: ["APIGEE", "MULESOFT", "KONG", "AZURE APIM"],
+      image: service2,
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
           <div className="row justify-content">
-            <div className="col-md-12">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
               <div className="services-details-desc justify-content">
                 <div>
                   <h2 className="main-banner-image">About this Service</h2>
@@ -74,9 +115,9 @@ const ApiEnablement = () => {
                 </div>
                 <div className="ptb-70">
                   <h2 className="main-banner-image">What we do?</h2>
-                  <div className="row">
+                  <div className="row justify-content">
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -96,7 +137,7 @@ const ApiEnablement = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -115,7 +156,7 @@ const ApiEnablement = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -137,157 +178,12 @@ const ApiEnablement = () => {
                 <h2 className="main-banner-image">
                   API Enablement Integrated Services
                 </h2>
-
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        Drawing from extensive experience spanning various
-                        industries and standards, including PSD2, open banking,
-                        pensions dashboard, payment, and taxation, we
-                        collaborate closely with clients throughout the entire
-                        API enablement journey, from API strategy formulation to
-                        API product development.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> PSD2
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Open Banking
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Pensions
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Application Payment
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Taxation
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="overview-box">
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        Our expertise encompasses the development of APIs across
-                        various domains, including Public, Private, Partner
-                        Interconnects, Experience, Process, and System APIs.
-                        Leveraging API-first principles and an array of
-                        industry-standard technologies, we ensure that APIs are
-                        designed and implemented to meet the diverse needs of
-                        our clients.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> API First
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> API LED
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> OAS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> RAML
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> GRAPHQL
-                          </span>
-                        </li>{" "}
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> DevOps
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Async API
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        As a vendor-neutral partner, our approach is driven by
-                        both client requirements and organizational
-                        capabilities. We carefully assess and recommend the most
-                        suitable technologies, to accelerate API enablement
-                        initiatives and facilitate application modernization
-                        efforts.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> APIGEE
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> MULESOFT
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> KONG
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> AZURE APIM
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-12">
+              <ServiceSidebar />
             </div>
           </div>
         </div>
