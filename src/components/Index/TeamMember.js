@@ -1,8 +1,11 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
-import team1 from "../../images/team/team1.jpg"
+import team1 from "../../images/team/dawood11.png"
+import team2 from "../../images/team/nitesh11.png"
+import team3 from "../../images/team/rashid11.png"
+import team4 from "../../images/team/vamsi11.png"
 
-import team4 from "../../images/team/team4.jpg"
+
 import { Link } from "gatsby"
 
 const TeamMember = () => {
@@ -38,8 +41,8 @@ const TeamMember = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Merv Adrian</h3>
-                  <span>CEO & Founder</span>
+                  <h3>Dawood </h3>
+                  <span>Director of Engineering</span>
                 </div>
               </div>
             </div>
@@ -47,7 +50,7 @@ const TeamMember = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
-                  <img src={team4} alt="team" />
+                  <img src={team2} alt="team" />
 
                   <ul className="social">
                     <li>
@@ -63,15 +66,15 @@ const TeamMember = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Marie Curie</h3>
-                  <span>Support</span>
+                  <h3>Nitesh</h3>
+                  <span>Technical Architect</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
-                  <img src={team4} alt="team" />
+                  <img src={team3} alt="team" />
 
                   <ul className="social">
                     <li>
@@ -87,15 +90,15 @@ const TeamMember = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Marie Curie</h3>
-                  <span>Support</span>
+                  <h3>Rashid Ali</h3>
+                  <span>Fullstack Software Engineer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
-                  <img src={team4} alt="team" />
+                  <img src={team4} alt="team" border-radius ="20px"/>
 
                   <ul className="social">
                     <li>
@@ -111,8 +114,8 @@ const TeamMember = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Marie Curie</h3>
-                  <span>Support</span>
+                  <h3>Sai Vamsi</h3>
+                  <span>DevOps Tech Lead</span>
                 </div>
               </div>
             </div>
