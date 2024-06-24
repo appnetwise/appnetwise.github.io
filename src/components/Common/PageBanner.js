@@ -10,24 +10,13 @@ const PageBanner = ({
   homePageUrl,
   homePageText,
   activePageText,
-  bannerImage,
 }) => {
   React.useEffect(() => {
     AOS.init()
   }, [])
   return (
-    <div
-      className="page-title-area"
-      style={{
-        position: "relative",
-        backgroundImage: `url(${bannerImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        zIndex: 1,
-      }}
-    >
-      <div className="services-banner"></div>
-      <div className="container" style={{ position: "relative", zIndex: 3 }}>
+    <div className="page-title-area">
+      <div className="container">
         <div className="page-title-content">
           <h2
             data-aos="fade-down"

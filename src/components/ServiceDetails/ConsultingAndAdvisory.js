@@ -1,4 +1,5 @@
 import React from "react"
+import icon1 from "../../images/icons/icon1.png"
 
 import service2 from "../../images/services/service2.png"
 
@@ -52,7 +53,7 @@ const ConsultingAndAdvisory = () => {
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
                         <div className="icon">
-                          <i className="flaticon-rocket"></i>
+                          <img src={icon1} alt="banner" />
                         </div>
                         <h3>Business Case & Roadmap</h3>
                         <p>

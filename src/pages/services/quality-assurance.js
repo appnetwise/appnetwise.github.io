@@ -6,8 +6,6 @@ import PageBanner from "../../components/Common/PageBanner"
 import RelatedServices from "../../components/ServiceDetails/RelatedServices"
 import Footer from "../../components/_App/Footer"
 
-import banner from "../../images/qa.png"
-
 import QualityAssurance from "../../components/ServiceDetails/QualityAssurance"
 
 const QualityAssurancePage = () => {
@@ -20,7 +18,6 @@ const QualityAssurancePage = () => {
         homePageText="Home"
         homePageUrl="/"
         activePageText="Quality Assurance"
-        bannerImage={banner}
       />
 
       <QualityAssurance />
