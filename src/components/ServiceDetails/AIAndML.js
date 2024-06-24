@@ -1,16 +1,90 @@
 import React from "react"
-import image1 from "../../images/qa1.png"
-import icon1 from "../../images/funfacts/fun-icon1.png"
+import SliderComponent from "./SliderComponent"
+
+import ServiceSidebar from "./ServiceSidebar"
+import service2 from "../../images/services/service2.png"
+import service from "../../images/services/aiml.jpg"
 
 import image from "../../images/ai-ml-flow.png"
 
 const AIAndML = () => {
+  const slidesData = [
+    {
+      image: service2,
+      content: (
+        <p>
+          <b className="bold-text-color">Data Visualization Tools:</b> Tableau
+          and Power BI are powerful tools for visualizing and analyzing data,
+          enabling users to create interactive dashboards and reports to gain
+          insights and communicate findings effectively.
+        </p>
+      ),
+      features: ["TABLEAU", "POWER BI"],
+    },
+    {
+      image: service2,
+      content: (
+        <p>
+          <b className="bold-text-color">Deep Learning Frameworks:</b> Keras and
+          MXNet are frameworks specifically designed for deep learning tasks,
+          offering high-level APIs for building neural networks and conducting
+          advanced computations efficiently.
+        </p>
+      ),
+      features: ["KERAS", "MXNET"],
+    },
+    {
+      image: service2,
+      content: (
+        <p>
+          <b className="bold-text-color">Machine Learning Libraries:</b>{" "}
+          TensorFlow, PyTorch, and scikit-learn are popular libraries for
+          building and deploying machine learning models. They offer a wide
+          range of functionalities for tasks such as data preprocessing, model
+          training, and evaluation.
+        </p>
+      ),
+      features: ["TENSORFLOW", "PYTORCH", "SCIKIT-LEARN"],
+    },
+    {
+      image: service2,
+      content: (
+        <p>
+          <b className="bold-text-color">Machine Learning Operations Tools:</b>{" "}
+          MLflow, Kubeflow, Neptune, Comet ML, and Metaflow streamline machine
+          learning workflows, from development to deployment and monitoring,
+          enhancing collaboration across teams.
+        </p>
+      ),
+      features: ["MLFLOW", "KUBEFLOW", "NEPTUNE", "COMET ML", "METAFLOW"],
+    },
+    {
+      image: service2,
+      content: (
+        <p>
+          <b className="bold-text-color">Cloud Platforms:</b> AWS SageMaker,
+          Azure Machine Learning, and Google Cloud AI Platform provide
+          cloud-based infrastructure and services for developing, training, and
+          deploying machine learning models at scale. They offer managed
+          services, automated workflows, and scalable computing resources.
+        </p>
+      ),
+      features: [
+        "AWS SAGEMAKER",
+        "AZURE MACHINE LEARNING",
+        "GOOGLE CLOUD AI PLATFORM",
+      ],
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
           <div className="row justify-content">
-            <div className="col-md-12">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
               <div className="services-details-desc justify-content">
                 {/* <span className="sub-title">Consulting & Advisory</span> */}
 
@@ -89,7 +163,7 @@ const AIAndML = () => {
                   </h2>
                   <div className="row pt-40 justify-content">
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -111,7 +185,7 @@ const AIAndML = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -132,7 +206,7 @@ const AIAndML = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -152,7 +226,7 @@ const AIAndML = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -171,7 +245,7 @@ const AIAndML = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -189,7 +263,7 @@ const AIAndML = () => {
                       </div>
                     </div>
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -207,7 +281,7 @@ const AIAndML = () => {
                       </div>
                     </div>
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -227,7 +301,7 @@ const AIAndML = () => {
                       </div>
                     </div>
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -249,236 +323,12 @@ const AIAndML = () => {
                   </div>
                 </div>
                 <h2 className="main-banner-image">Tools & Technologies</h2>
-                <div className="row justify-content pt-40">
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              <b className="bold-text-color">
-                                Data Visualization Tools:
-                              </b>{" "}
-                              Tableau and Power BI are powerful tools for
-                              visualizing and analyzing data, enabling users to
-                              create interactive dashboards and reports to gain
-                              insights and communicate findings effectively.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>TABLEAU
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>POWER BI
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              <b className="bold-text-color">
-                                Deep Learning Frameworks
-                              </b>{" "}
-                              Keras and MXNet are frameworks specifically
-                              designed for deep learning tasks, offering
-                              high-level APIs for building neural networks and
-                              conducting advanced computations efficiently.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> KERAS
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>MXNET
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6  ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              <b className="bold-text-color">
-                                Machine Learning Libraries:
-                              </b>{" "}
-                              TensorFlow, PyTorch, and scikit-learn are popular
-                              libraries for building and deploying machine
-                              learning models. They offer a wide range of
-                              functionalities for tasks such as data
-                              preprocessing, model training, and evaluation.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> TENSORFLOW
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> PYTORCH
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> SCIKIT-LEARN
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              <b className="bold-text-color">
-                                Machine Learning Operations Tools:
-                              </b>{" "}
-                              MLflow, Kubeflow, Neptune, Comet ML and Metaflow
-                              streamline machine learning workflows, from
-                              development to deployment and monitoring,
-                              enhancing collaboration across teams.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> MLFLOW
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> KUBEFLOW
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> NEPTUNE
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> COMET ML
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> META FLOW
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              <b className="bold-text-color">
-                                Cloud Platforms:
-                              </b>{" "}
-                              AWS SageMaker, Azure Machine Learning, and Google
-                              Cloud AI Platform provide cloud-based
-                              infrastructure and services for developing,
-                              training, and deploying machine learning models at
-                              scale. They offer managed services, automated
-                              workflows, and scalable computing resources.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> AWS SAGEMAKER
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>AZURE MACHINE
-                                  LEARNING
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> GOOGLE CLOUD
-                                  AI PLATFORM
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> PLAYWRIGHT
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-12">
+              <ServiceSidebar />
             </div>
           </div>
         </div>

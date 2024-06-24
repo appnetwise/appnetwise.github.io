@@ -1,49 +1,90 @@
 import React from "react"
-import image1 from "../../images/qa1.png"
-import icon1 from "../../images/funfacts/fun-icon1.png"
-import FunIcon2 from "../../images/funfacts/fun-icon2.png"
+
 import image from "../../images/qa-flow.png"
+import ServiceSidebar from "./ServiceSidebar"
+import service2 from "../../images/services/service2.png"
+
+import service from "../../images/services/qa.jpg"
+
+import SliderComponent from "./SliderComponent"
 
 const QualityAssurance = () => {
+  const slidesData = [
+    {
+      content:
+        "API testing tools are essential for verifying the functionality, performance, and security of Application Programming Interfaces (APIs).",
+      features: ["JMETER", "POSTMAN", "REST ASSURED"],
+      image: service2,
+    },
+    {
+      content:
+        "Performance testing tools are crucial for assessing the responsiveness, scalability, and reliability of software applications under varying workloads.",
+      features: ["JMETER", "LOAD RUNNER", "SILK PERFORMER"],
+      image: service2,
+    },
+    {
+      content:
+        "Automated UI testing tools ensure software applications meet design specifications and are free of functional defects. They deliver a consistent user experience across various browsers and platforms.",
+      features: ["SELENIUM", "PROTRACTOR", "CYPRESS", "PLAYWRIGHT"],
+      image: service2,
+    },
+    {
+      content:
+        "Security testing tools are crucial for identifying and addressing vulnerabilities in software applications, ensuring robust protection against security threats.",
+      features: ["HCL APPSCAN", "BURP SUITE", "ZED ATTACK PROXY (ZAP)"],
+      image: service2,
+    },
+    {
+      content:
+        "Automated mobile testing tools are essential for ensuring the functionality, usability, and performance of mobile applications across different devices and platforms.",
+      features: ["APPIUM"],
+      image: service2,
+    },
+    {
+      content:
+        "Continuous Integration (CI) and Continuous Delivery (CD) tools play a vital role in automating the software development and release processes.",
+      features: ["CI / CD", "JENKINS"],
+      image: service2,
+    },
+    {
+      content:
+        "Test management and defect tracking tools are essential for organizing test activities, managing test cases, and tracking and resolving defects throughout the software development lifecycle.",
+      features: ["JIRA", "AZURE DEVOPS", "XRAY"],
+      image: service2,
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
-          <div className="row justify-content">
-            <div className="col-md-12">
+          <div className="row">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
               <div className="services-details-desc justify-content">
                 {/* <span className="sub-title">Consulting & Advisory</span> */}
                 <div>
-                  <div className="row align-items-center">
-                    <div className="col-lg-8 col-md-12">
-                      <p>
-                        At <b className="bold-text-color">Appnetwise</b>,
-                        excellence is our standard. Our dedicated Quality
-                        Assurance team meticulously ensures top-notch software
-                        quality through rigorous test planning, precise
-                        execution, and an unwavering commitment to uncovering
-                        defects. From functional and regression testing to
-                        performance and security assessments, we leave no stone
-                        unturned. Trust us to deliver software that meets the
-                        highest standards of quality and reliability.
-                      </p>
-                      <p>
-                        Our team leverages the latest tools and technologies to
-                        provide comprehensive testing solutions that guarantee
-                        your software is robust and ready for market. By
-                        combining automated and manual testing methods, we
-                        ensure thorough coverage and quick identification of
-                        issues. With Appnetwise, you can be confident that your
-                        software will perform flawlessly under all conditions.
-                      </p>
-                    </div>
-
-                    <div className="col-lg-3 col-md-12">
-                      <div className="our-mission-image">
-                        <img src={image1} alt="service" />
-                      </div>
-                    </div>
-                  </div>
+                  <h2 className="main-banner-image">About this Service</h2>
+                  <p>
+                    At <b className="bold-text-color">Appnetwise</b>, excellence
+                    is our standard. Our dedicated Quality Assurance team
+                    meticulously ensures top-notch software quality through
+                    rigorous test planning, precise execution, and an unwavering
+                    commitment to uncovering defects. From functional and
+                    regression testing to performance and security assessments,
+                    we leave no stone unturned. Trust us to deliver software
+                    that meets the highest standards of quality and reliability.
+                  </p>
+                  <p>
+                    Our team leverages the latest tools and technologies to
+                    provide comprehensive testing solutions that guarantee your
+                    software is robust and ready for market. By combining
+                    automated and manual testing methods, we ensure thorough
+                    coverage and quick identification of issues. With
+                    Appnetwise, you can be confident that your software will
+                    perform flawlessly under all conditions.
+                  </p>
                 </div>
                 <div
                   className=" services-area bg-f1f8fb"
@@ -74,9 +115,9 @@ const QualityAssurance = () => {
                 </div>
                 <div className="ptb-70">
                   <h2 className="main-banner-image">Our Testing Services</h2>
-                  <div className="row pt-40">
+                  <div className="row justify-content pt-40">
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -100,7 +141,7 @@ const QualityAssurance = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6"
+                      className="col-lg-6 col-sm-6"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -123,7 +164,7 @@ const QualityAssurance = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -146,7 +187,7 @@ const QualityAssurance = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -169,7 +210,7 @@ const QualityAssurance = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -187,7 +228,7 @@ const QualityAssurance = () => {
                       </div>
                     </div>
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className="col-lg-6 col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -211,280 +252,13 @@ const QualityAssurance = () => {
                 <h2 className="main-banner-image">
                   Effective Tools And Technologies Employed By The Team
                 </h2>
-                <div className="row justify-content pt-40">
-                  <div className="col-sm-6  ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              API testing tools are essential for verifying the
-                              functionality, performance, and security of
-                              Application Programming Interfaces (APIs).
-                            </p>
 
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> JMETER
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> POSTMAN
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> REST ASSURED
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              Performance testing tools are crucial for
-                              assessing the responsiveness, scalability, and
-                              reliability of software applications under varying
-                              workloads.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> JMETER
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>LOAD RUNNER
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> SILK PERFORMER
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              Automated UI testing tools ensure software
-                              applications meet design specifications and are
-                              free of functional defects. They deliver a
-                              consistent user experience across various browsers
-                              and platforms.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> SELENIUM
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>PROTRACTOR
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> CYPRESS
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> PLAYWRIGHT
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              Security testing tools are crucial for identifying
-                              and addressing vulnerabilities in software
-                              applications, ensuring robust protection against
-                              security threats.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> HCL APPSCAN
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> BURP SUITE
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>ZED ATTACK
-                                  PROXY (ZAP)
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              Automated mobile testing tools are essential for
-                              ensuring the functionality, usability, and
-                              performance of mobile applications across
-                              different devices and platforms.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i>APPIUM
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              Continuous Integration (CI) and Continuous
-                              Delivery (CD) tools play a vital role in
-                              automating the software development and release
-                              processes.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> CI / CD
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> JENKINS
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 ">
-                    <div className="single-funfacts-box">
-                      <div className="icon">
-                        <img src={icon1} alt="banner" />
-                      </div>
-                      <div className="overview-box">
-                        <div
-                          className="overview-content"
-                          style={{ flex: "0 0 100%", maxWidth: "none" }}
-                        >
-                          <div className="content right-content">
-                            <p>
-                              Test management and defect tracking tools are
-                              essential for organizing test activities, managing
-                              test cases, and tracking and resolving defects
-                              throughout the software development lifecycle.
-                            </p>
-
-                            <ol className="features-list">
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> JIRA
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> AZURE DEVOPS
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  <i className="bx bx-check"></i> XRAY
-                                </span>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-12">
+              <ServiceSidebar />
             </div>
           </div>
         </div>

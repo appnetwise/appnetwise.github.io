@@ -3,7 +3,6 @@ import service1 from "../../images/banner22.jpg"
 import service2 from "../../images/banner33.png"
 import service3 from "../../images/banner44.jpg"
 
-
 const OurServices = () => {
   return (
     <>
@@ -70,7 +69,7 @@ const OurServices = () => {
                     <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>Open Banking & Finance
                     </li>
-                    <li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i> GreenIT (ESG &
                       Sustainability)
                     </li>

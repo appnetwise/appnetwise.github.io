@@ -1,20 +1,42 @@
 import React from "react"
 import icon1 from "../../images/icons/icon1.png"
-
+import ServiceSidebar from "./ServiceSidebar"
+import SliderComponent from "./SliderComponent"
 import service2 from "../../images/services/service2.png"
+import service from "../../images/services/consulting-advisory.jpg"
 
 const ConsultingAndAdvisory = () => {
+  const slidesData = [
+    {
+      content:
+        "We assess your organization, pinpoint execution gaps, and define essential technologies to craft a tailored digital innovation roadmap. Our collaborative solutions accelerate value delivery while minimizing complexity, risk, and cost.",
+      features: ["ASSESS", "PLAN", "CYPRESS", "IMPLEMENT", "OPTIMISE", "ROI"],
+      image: service2,
+    },
+
+    {
+      content:
+        "Amid rapid digital changes, companies face both risks and opportunities. We offer ongoing, informed advice by monitoring emerging trends and technological developments, empowering clients to align their IT strategy and systems proactively.",
+      features: [
+        "INDUSTRY TRENDS",
+        "IT ECOSYSTEM",
+        "VENDOR CAPABILITIES",
+        "BEST PRACTICES",
+      ],
+      image: service2,
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
-          <div className="row justify-content">
-            <div className=" col-md-12">
-              {/* <div className="services-details-image">
-                <img src={details1} alt="about" />
-              </div> */}
+          <div className="row">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
 
-              <div className="services-details-desc justify-content">
+              <div className="services-details-desc">
                 {/* <span className="sub-title">Consulting & Advisory</span> */}
                 <div>
                   <h2 className="main-banner-image">About this Service</h2>
@@ -44,13 +66,10 @@ const ConsultingAndAdvisory = () => {
                     flowers bloom. But this spreads scarce resources thinly. 
                   </p>
                 </blockquote>
-                <div className="ptb-70">
+                <div className="ptb-70 ">
                   <h2 className="main-banner-image">What we do?</h2>
-                  <div className="row">
-                    <div
-                      className="col-lg-4 col-sm-6"
-                      style={{ display: "flex" }}
-                    >
+                  <div className="row justify-content pt-40 ">
+                    <div className=" col-sm-6" style={{ display: "flex" }}>
                       <div className="single-solutions-box single-solutions-box-hover">
                         <div className="icon">
                           <img src={icon1} alt="banner" />
@@ -65,10 +84,7 @@ const ConsultingAndAdvisory = () => {
                       </div>
                     </div>
 
-                    <div
-                      className="col-lg-4 col-sm-6"
-                      style={{ display: "flex" }}
-                    >
+                    <div className=" col-sm-6" style={{ display: "flex" }}>
                       <div className="single-solutions-box single-solutions-box-hover">
                         <div className="icon">
                           <i className="flaticon-laptop"></i>
@@ -83,7 +99,7 @@ const ConsultingAndAdvisory = () => {
                     </div>
 
                     <div
-                      className="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3"
+                      className=" col-sm-6 offset-lg-0 offset-sm-3"
                       style={{ display: "flex" }}
                     >
                       <div className="single-solutions-box single-solutions-box-hover">
@@ -105,110 +121,13 @@ const ConsultingAndAdvisory = () => {
                   Consulting & Advisory... seeing beyond
                 </h2>
 
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        We help organisations assess their current state,
-                        identify gaps in execution capabilities, determine
-                        technology essentials, and define a tailored roadmap for
-                        managing the client’s required digital innovation.
-                      </p>
-                      <p>
-                        Working hand-in-hand with clients, we develop powerful
-                        solutions, designed to build internal confidence and
-                        speed up time to value, while reducing the complexity,
-                        risk, and cost of your digital transformation.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Assess
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Plan
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Implement
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Optimise
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> ROI
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="overview-box">
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        With the digital landscape changing rapidly, new risks
-                        and new opportunities emerge for companies.
-                      </p>
-                      <p>
-                        We provide our clients with on-going, long term advice,
-                        by keeping a close watch on emerging trends and
-                        challenges, industry and technology developments. This
-                        helps our clients anticipate and proactively align their
-                        IT strategy, architecture and systems.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Industry Trends
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> IT Ecosystems
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Vendor Capabilities
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> Best Practices
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
             </div>
 
-            {/* <div className="col-lg-4 col-md-12">
+            <div className="col-lg-4 col-md-12">
               <ServiceSidebar />
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

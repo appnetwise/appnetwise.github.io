@@ -7,65 +7,75 @@ const ServiceSidebar = () => {
       <div className="services-details-info">
         <ul className="services-list">
           <li>
-            <Link to="/services/service-details" className="active">
-              AI & ML Development
+            <Link to="/services/consulting-advisory" activeClassName="active">
+              Consulting & Advisory
             </Link>
           </li>
           <li>
-            <Link to="/services/service-details">Data Analytics</Link>
+            <Link to="/services/cloud-adoption" activeClassName="active">
+              Cloud Adoption
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/services/api-enablement" activeClassName="active">
+              API Enablement
+            </Link>
           </li>
           <li>
-            <Link to="/services/service-details">Data Science</Link>
+            <Link to="/services/software-development" activeClassName="active">
+              Software Development
+            </Link>
           </li>
           <li>
-            <Link to="/services/service-details">Artificial Intelligence</Link>
+            <Link to="/services/quality-assurance" activeClassName="active">
+              Quality Assurance
+            </Link>
           </li>
           <li>
-            <Link to="/services/service-details">Data Visualization</Link>
+            <Link to="/services/block-chain" activeClassName="active">
+              Blockchain
+            </Link>
+          </li>
+          <li>
+            <Link to="/services/ai-ml" activeClassName="active">
+              AI & ML
+            </Link>
+          </li>
+          <li>
+            <Link to="/services/devops" activeClassName="active">
+              DevOps Practices
+            </Link>
           </li>
         </ul>
-
-        <div className="download-file">
-          <h3>Brochures</h3>
-
-          <ul>
-            <li>
-              <Link to="#">
-                PDF Download <i className="bx bxs-file-pdf"></i>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                Services Details.txt <i className="bx bxs-file-txt"></i>
-              </Link>
-            </li>
-          </ul>
-        </div>
 
         <div className="services-contact-info">
           <h3>Contact Info</h3>
 
           <ul>
-            <li>
+            {/* <li>
               <div className="icon">
                 <i className="bx bx-user-pin"></i>
               </div>
               <span>Phone:</span>
               <a href="tel:+21453545413">+2145 354 5413</a>
-            </li>
+            </li> */}
             <li>
               <div className="icon">
                 <i className="bx bx-map"></i>
               </div>
               <span>Location:</span>
-              New York, USA
+              46, Workafella, 6-3-252/2, Mega City, Irram Manzil Colony, Banjara
+              Hills, Hyderabad - 500082 - TS
             </li>
             <li>
               <div className="icon">
                 <i className="bx bx-envelope"></i>
               </div>
               <span>Email:</span>
-              <a href="mailto:hello@rewy.com">hello@rewy.com</a>
+              <a href="mailto:hyderabad@appnetwise.com">
+                hyderabad@appnetwise.com
+              </a>
             </li>
           </ul>
         </div>

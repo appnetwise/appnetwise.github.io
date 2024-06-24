@@ -1,14 +1,47 @@
 import React from "react"
 import service2 from "../../images/services/service2.png"
+import service from "../../images/services/blockchain.png"
 import image from "../../images/blockchain-flow.png"
+import ServiceSidebar from "./ServiceSidebar"
+import SliderComponent from "./SliderComponent"
 
 const Blockchain = () => {
+  const slidesData = [
+    {
+      content:
+        "Specializing in diverse industries, we utilize Ethereum, Polygon POS Chain, and Hyperledger Besu to develop innovative solutions tailored to our clients' needs. Leveraging the strengths of these platforms, we deliver efficient and scalable blockchain solutions.",
+      features: ["ETHEREUM", "POLYGON POS CHAIN", "HYPERLEDGER BESU"],
+      image: service2,
+    },
+
+    {
+      content:
+        "We use Fireblocks for secure asset storage and transfer, along with Hardhat and Truffle Suite for efficient smart contract development, testing, and deployment, ensuring robust and reliable solutions.",
+      features: ["FIREBLOCKS", " HARDHAT ", "TRUFFLE"],
+      image: service2,
+    },
+    {
+      content:
+        "We employ Web3.js, Metamask, Ether.js, and Solidity with ERC standards to streamline Ethereum integration and smart contract development, ensuring efficient and robust solutions.",
+      features: [
+        "WEB3.JS",
+        " METAMASK ",
+        "ERC STANDARD",
+        "ETHER.JS",
+        "SOLIDITY",
+      ],
+      image: service2,
+    },
+  ]
   return (
     <>
       <section className="services-details-area ptb-70">
         <div className="container">
           <div className="row justify-content">
-            <div className="col-md-12">
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-image">
+                <img src={service} alt="about" />
+              </div>
               <div className="services-details-desc justify-content">
                 <div>
                   <h2 className="main-banner-image">About this Service</h2>
@@ -164,133 +197,12 @@ const Blockchain = () => {
                 <h2 className="main-banner-image">
                   Blockchain Development Tools
                 </h2>
-
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        pecializing in diverse industries, we utilize Ethereum,
-                        Polygon POS Chain, and Hyperledger Besu to develop
-                        innovative solutions tailored to our clients' needs.
-                        Leveraging the strengths of these platforms, we deliver
-                        efficient and scalable blockchain solutions.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i>ETHEREUM
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> POLYGON POS CHAIN
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> HYPERLEDGER BESU
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="overview-box">
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        In our blockchain development process, we employ
-                        cutting-edge tools such as Fireblocks, Hardhat, and
-                        Truffle Suite. Fireblocks ensures secure storage and
-                        transfer of digital assets across multiple blockchain
-                        networks. Hardhat and Truffle Suite streamline smart
-                        contract development, testing, and deployment, enabling
-                        us to deliver robust and reliable blockchain solutions.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> FIREBLOCKS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> HARDHAT
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> TRUFFLE
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-                <div className="overview-box">
-                  <div className="overview-content">
-                    <div className="content right-content">
-                      <p>
-                        In our blockchain development process, we leverage
-                        Web3.js, Metamask, Ether.js, and Solidity in conjunction
-                        with ERC standards. Web3.js enables Ethereum
-                        interaction, Metamask acts as a blockchain gateway and
-                        wallet, Ether.js facilitates Ethereum integration, and
-                        Solidity is utilized for smart contract development.
-                        These tools collectively enhance our ability to create
-                        robust blockchain solutions efficiently.
-                      </p>
-
-                      <ol className="features-list">
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> WEB3.JS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> METAMASK
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> ERC STANDARD
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> ETHER.JS
-                          </span>
-                        </li>
-                        <li>
-                          <span>
-                            <i className="bx bx-check"></i> SOLIDITY
-                          </span>
-                        </li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div className="overview-image">
-                    <div className="image">
-                      <img src={service2} alt="features" />
-                    </div>
-                  </div>
-                </div>
+                <SliderComponent slidesData={slidesData} />
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-12">
+              <ServiceSidebar />
             </div>
           </div>
         </div>

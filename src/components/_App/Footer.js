@@ -79,19 +79,18 @@ const Footer = () => {
               <ul className="footer-contact-info">
                 <li>
                   <i className="bx bx-map"></i>
-                  175 5th Ave, New York, NY 10010, <br /> United States
+                  46, Workafella, 6-3-252/2, Mega City, Irram Manzil Colony,
+                  Banjara Hills, Hyderabad - 500082 - TS
                 </li>
-                <li>
+                {/* <li>
                   <i className="bx bx-phone-call"></i>
                   <a href="tel:11234567890">+1 (123) 456 7890</a>
-                </li>
+                </li> */}
                 <li>
                   <i className="bx bx-envelope"></i>
-                  <a href="mailto:hello@rewy.com">hello@rewy.com</a>
-                </li>
-                <li>
-                  <i className="bx bxs-inbox"></i>
-                  <a href="tel:+557854578964">+55 785 4578964</a>
+                  <a href="mailto:hyderabad@appnetwise.com">
+                    hyderabad@appnetwise.com
+                  </a>
                 </li>
               </ul>
             </div>
