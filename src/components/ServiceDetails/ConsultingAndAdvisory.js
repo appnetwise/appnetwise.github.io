@@ -1,5 +1,7 @@
 import React from "react"
-import icon1 from "../../images/icons/icon1.png"
+import icon1 from "../../images/icons/businesscaseicon.png"
+import icon2 from "../../images/icons/tech-service.png"
+import icon3 from "../../images/icons/digital-transformation.png"
 import ServiceSidebar from "./ServiceSidebar"
 import SliderComponent from "./SliderComponent"
 import service2 from "../../images/services/ca-1.png"
@@ -81,7 +83,7 @@ const ConsultingAndAdvisory = () => {
                   <div className=" col-sm-4" style={{ display: "flex" }}>
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <img src={icon1} alt="banner" />
+                        <img src={icon1} alt="banner" width="24%" />
                       </div>
                       <h3>Business Case & Roadmap</h3>
                       <p>
@@ -96,7 +98,7 @@ const ConsultingAndAdvisory = () => {
                   <div className=" col-sm-4" style={{ display: "flex" }}>
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                      <img src={icon2} alt="banner" width="24%" />
                       </div>
                       <h3>Tech & Engineering Due Diligence</h3>
                       <p>
@@ -113,7 +115,7 @@ const ConsultingAndAdvisory = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        <img src={icon3} alt="banner" width="24%"/>
                       </div>
                       <h3>Technology Transformation</h3>
                       <p>

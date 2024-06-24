@@ -4,6 +4,10 @@ import service2 from "../../images/services/c2.png"
 import service1 from "../../images/services/c1.png"
 import service from "../../images/services/cloud-adoption.jpg"
 import SliderComponent from "./SliderComponent"
+import icon1 from "../../images/icons/cloudstrategy.png"
+import icon2 from "../../images/icons/cloudreadiness.png"
+import icon3 from "../../images/icons/cloudbuild.png"
+
 
 const CloudAdoption = () => {
   const slidesData = [
@@ -84,7 +88,10 @@ const CloudAdoption = () => {
                   <div className="col-sm-4" style={{ display: "flex" }}>
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-rocket"></i>
+                       
+                        <img src = {icon1} alt = "banner" width="24%"/>
+                        
+                           
                       </div>
                       <h3>Cloud Strategy</h3>
                       <p>
@@ -105,7 +112,8 @@ const CloudAdoption = () => {
                   <div className="col-sm-4" style={{ display: "flex" }}>
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                        
+                        <img src = {icon2} alt = "banner" width="24%" />
                       </div>
                       <h3>Cloud Readiness Assesment</h3>
                       <p>
@@ -125,6 +133,7 @@ const CloudAdoption = () => {
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
                         <i className="flaticon-money"></i>
+                        <img src = {icon3} alt = "banner" width="24%" />
                       </div>
                       <h3>Cloud Build & Migration</h3>
                       <p>
