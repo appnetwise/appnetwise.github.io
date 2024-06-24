@@ -1,9 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import Slider from "react-slick"
-import icon1 from "../../images/services/service-icon1.png"
-import icon2 from "../../images/services/service-icon2.png"
-import icon3 from "../../images/services/service-icon3.png"
+import icon1 from "../../images/services/icon11c.png"
+import icon2 from "../../images/services/icon2c.png"
+import icon3 from "../../images/services/icon3c.png"
+import icon4 from "../../images/services/icon4c.png"
+import icon5 from "../../images/services/icon5c.png"
+import icon6 from "../../images/services/icon6.png"
+import icon7 from "../../images/services/icon7c.png"
+import icon8 from "../../images/services/icon8c.png"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
@@ -52,7 +57,7 @@ const RelatedServices = () => {
         <Slider {...settings}>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon1} alt="about" />
+              <img src={icon1} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/consulting-advisory">
@@ -71,7 +76,7 @@ const RelatedServices = () => {
           </div>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon2} alt="about" />
+              <img src={icon2} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/cloud-adoption">Cloud Adoption</Link>
@@ -90,7 +95,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" />
+              <img src={icon3} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/api-enablement">API Enablement</Link>
@@ -109,7 +114,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" />
+              <img src={icon4} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/software-development">
@@ -130,7 +135,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" />
+              <img src={icon7} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/quality-assurance">Quality Assurance</Link>
@@ -149,7 +154,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" />
+              <img src={icon5} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/block-chain">Blockchain</Link>
@@ -167,7 +172,7 @@ const RelatedServices = () => {
           </div>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" />
+              <img src={icon6} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/ai-ml">AI & ML</Link>
@@ -186,25 +191,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" />
-            </div>
-            <h3>
-              <Link to="/services/quality-assurance">Quality Assurance</Link>
-            </h3>
-            <p>
-              Unlock quality-driven success with our proven methodologies such
-              as planning, control, and continuous improvement, elevating
-              processes, mitigating risks, ensuring unparalleled customer
-              satisfaction.
-            </p>
-
-            <Link to="/services/quality-assurance" className="read-more-btn">
-              Read More <i className="flaticon-right"></i>
-            </Link>
-          </div>
-          <div className="single-services-box">
-            <div className="icon">
-              <img src={icon3} alt="about" />
+              <img src={icon8} alt="about" style={{ maxWidth: "30%" }} />
             </div>
             <h3>
               <Link to="/services/devops">DevOps Practices</Link>

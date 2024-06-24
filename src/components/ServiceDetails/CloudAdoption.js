@@ -1,6 +1,7 @@
 import React from "react"
 import ServiceSidebar from "./ServiceSidebar"
-import service2 from "../../images/services/service2.png"
+import service2 from "../../images/services/c2.png"
+import service1 from "../../images/services/c1.png"
 import service from "../../images/services/cloud-adoption.jpg"
 import SliderComponent from "./SliderComponent"
 
@@ -15,7 +16,7 @@ const CloudAdoption = () => {
         "CLOUD-AGNOSTIC",
         "APPLICATION MODERNISATION",
       ],
-      image: service2,
+      image: service1,
     },
 
     {

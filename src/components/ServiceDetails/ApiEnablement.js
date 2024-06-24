@@ -1,5 +1,7 @@
 import React from "react"
-import service2 from "../../images/services/service2.png"
+import service1 from "../../images/services/api1.jpg"
+import service2 from "../../images/services/api2.jpg"
+import service3 from "../../images/services/api3.jpg"
 import service from "../../images/services/api.jpg"
 import image from "../../images/api-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
@@ -18,7 +20,7 @@ const ApiEnablement = () => {
         "OPTIMISE",
         "TAXATION",
       ],
-      image: service2,
+      image: service1,
     },
 
     {
@@ -38,7 +40,7 @@ const ApiEnablement = () => {
       content:
         "    As a vendor-neutral partner, our approach is driven by  both client requirements and organizational capabilities. We carefully assess and recommend the most suitable technologies, to accelerate API enablement initiatives and facilitate application modernization efforts.",
       features: ["APIGEE", "MULESOFT", "KONG", "AZURE APIM"],
-      image: service2,
+      image: service3,
     },
   ]
   return (

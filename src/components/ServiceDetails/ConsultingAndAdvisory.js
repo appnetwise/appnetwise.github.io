@@ -2,7 +2,8 @@ import React from "react"
 import icon1 from "../../images/icons/icon1.png"
 import ServiceSidebar from "./ServiceSidebar"
 import SliderComponent from "./SliderComponent"
-import service2 from "../../images/services/service2.png"
+import service2 from "../../images/services/ca-1.png"
+import service3 from "../../images/services/ca-2.png"
 import service from "../../images/services/consulting-advisory.jpg"
 
 const ConsultingAndAdvisory = () => {
@@ -23,7 +24,7 @@ const ConsultingAndAdvisory = () => {
         "VENDOR CAPABILITIES",
         "BEST PRACTICES",
       ],
-      image: service2,
+      image: service3,
     },
   ]
   return (
