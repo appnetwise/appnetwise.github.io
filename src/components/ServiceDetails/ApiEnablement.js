@@ -6,6 +6,9 @@ import service from "../../images/services/api.jpg"
 import image from "../../images/api-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
 import SliderComponent from "./SliderComponent"
+import icon1 from"../../images/icons/strategy.png"
+import icon2 from"../../images/icons/execution.png"
+import icon3 from"../../images/icons/tooling.png"
 
 const ApiEnablement = () => {
   const slidesData = [
@@ -133,7 +136,9 @@ const ApiEnablement = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-rocket"></i>
+                        
+                        <img src={icon1} alt="banner" width = "20%" />
+                        
                       </div>
                       <h3>Strategy</h3>
                       <p>
@@ -153,7 +158,8 @@ const ApiEnablement = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                      
+                        <img src={icon2} alt="banner" width = "20%" />
                       </div>
                       <h3>Tooling</h3>
                       <p>
@@ -172,7 +178,7 @@ const ApiEnablement = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src={icon3} alt="banner" width = "20%" />
                       </div>
                       <h3>Execution</h3>
                       <p>

@@ -6,6 +6,14 @@ import service2 from "../../images/services/service2.png"
 import service from "../../images/services/devops.jpg"
 import SliderComponent from "./SliderComponent"
 
+import icon20 from"../../images/icons/expertise12.png"
+import icon2 from"../../images/icons/proactive12.png"
+import icon3 from"../../images/icons/costeffective12.png"
+import icon4 from"../../images/icons/proven12.png"
+import icon5 from"../../images/icons/continuous12.png"
+import icon6 from"../../images/icons/enchanced12.png"
+
+
 const DevOps = () => {
   const slidesData = [
     {
@@ -241,7 +249,9 @@ const DevOps = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-rocket"></i>
+                        
+                        
+                        <img src = {icon20} alt = "banner" width="20%" />
                       </div>
                       <h3>Expertise and Experience</h3>
                       <p>
@@ -261,7 +271,9 @@ const DevOps = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                        
+                        
+                        <img src = {icon2} alt = "banner" width="20%" />
                       </div>
                       <h3>Proactive Problem-Solving</h3>
                       <p>
@@ -283,7 +295,8 @@ const DevOps = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                       
+                      <img src = {icon3} alt = "banner" width="20%" />
                       </div>
                       <h3>Cost-Effective Solutions</h3>
                       <p>
@@ -303,7 +316,9 @@ const DevOps = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
+                        
+                        <img src = {icon4} alt = "banner" width="20%" />
                       </div>
                       <h3>Proven Track Record</h3>
                       <p>
@@ -322,7 +337,9 @@ const DevOps = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
+                        
+                        <img src = {icon5} alt = "banner" width="20%" />
                       </div>
                       <h3>Continuous Support</h3>
                       <p>
@@ -340,7 +357,9 @@ const DevOps = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
+                        
+                        <img src = {icon6} alt = "banner" width="20%" />
                       </div>
                       <h3>Enhanced Collaboration</h3>
                       <p>

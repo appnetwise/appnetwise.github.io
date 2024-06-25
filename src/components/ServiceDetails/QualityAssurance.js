@@ -4,6 +4,14 @@ import image from "../../images/qa-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
 import service2 from "../../images/services/service2.png"
 
+import icon1 from "../../images/icons/automated11.png"
+import icon2 from "../../images/icons/manual.png"
+import icon3 from "../../images/icons/web.png"
+import icon4 from "../../images/icons/api11.png"
+import icon5 from "../../images/icons/security11.png"
+import icon6 from "../../images/icons/testdata.png"
+
+
 import service from "../../images/services/qa.jpg"
 
 import SliderComponent from "./SliderComponent"
@@ -131,7 +139,8 @@ const QualityAssurance = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-rocket"></i>
+                        
+                        <img src = {icon1} alt = "banner" width="24%" />
                       </div>
                       <h3>Automated Testing</h3>
                       <p>
@@ -154,7 +163,8 @@ const QualityAssurance = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                        
+                        <img src = {icon2} alt = "banner" width="24%" />
                       </div>
                       <h3>Manual Testing</h3>
                       <p>
@@ -176,7 +186,8 @@ const QualityAssurance = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                       
+                        <img src = {icon3} alt = "banner" width="24%" />
                       </div>
                       <h3>Web Testing</h3>
                       <p>
@@ -199,7 +210,8 @@ const QualityAssurance = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
+                        <img src = {icon4} alt = "banner" width="24%" />
                       </div>
                       <h3>API Testing</h3>
                       <p>
@@ -222,7 +234,7 @@ const QualityAssurance = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon5} alt = "banner" width="24%" />
                       </div>
                       <h3>Security Testing</h3>
                       <p>
@@ -240,7 +252,8 @@ const QualityAssurance = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
+                        <img src = {icon6} alt = "banner" width="24%" />
                       </div>
                       <h3>Test Data Generation</h3>
                       <p>

@@ -132,7 +132,7 @@ const CloudAdoption = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
                         <img src = {icon3} alt = "banner" width="24%" />
                       </div>
                       <h3>Cloud Build & Migration</h3>

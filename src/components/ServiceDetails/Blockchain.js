@@ -4,6 +4,11 @@ import service from "../../images/services/blockchain.png"
 import image from "../../images/blockchain-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
 import SliderComponent from "./SliderComponent"
+import icon1 from"../../images/icons/Dapps.png"
+import icon2 from"../../images/icons/smartcontracts.png"
+import icon3 from"../../images/icons/carbonmarket.png"
+import icon4 from"../../images/icons/nft.png"
+
 
 const Blockchain = () => {
   const slidesData = [
@@ -118,7 +123,8 @@ const Blockchain = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-rocket"></i>
+                   
+                        <img src = {icon1} alt = "banner" width="20%" />
                       </div>
                       <h3>Decentralized Applications (DApps)</h3>
                       <p>
@@ -140,7 +146,7 @@ const Blockchain = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                      <img src = {icon2} alt = "banner" width="20%" />
                       </div>
                       <h3>Smart Contracts</h3>
                       <p>
@@ -163,7 +169,7 @@ const Blockchain = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon3} alt = "banner" width="20%" />
                       </div>
                       <h3>Carbon Market Solutions</h3>
                       <p>
@@ -182,7 +188,7 @@ const Blockchain = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon4} alt = "banner" width="20%" />
                       </div>
                       <h3>Non-Fungible Tokens (NFTs)</h3>
                       <p>

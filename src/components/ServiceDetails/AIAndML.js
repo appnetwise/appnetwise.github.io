@@ -6,6 +6,14 @@ import service2 from "../../images/services/service2.png"
 import service from "../../images/services/aiml.jpg"
 
 import image from "../../images/ai-ml-flow.png"
+import icon1 from"../../images/icons/detection11.png"
+import icon2 from"../../images/icons/customer.png"
+import icon3 from"../../images/icons/protect.png"
+import icon4 from"../../images/icons/predective.png"
+import icon5 from"../../images/icons/demand.png"
+import icon6 from"../../images/icons/computer1.png"
+import icon7 from"../../images/icons/generativeai.png"
+import icon8 from"../../images/icons/alp.png"
 
 const AIAndML = () => {
   const slidesData = [
@@ -177,7 +185,8 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-rocket"></i>
+                        
+                        <img src = {icon1} alt = "banner" width="20%" />
                       </div>
                       <h3>Fraud Detection</h3>
                       <p>
@@ -199,7 +208,8 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-laptop"></i>
+                        
+                        <img src = {icon2} alt = "banner" width="20%" />
                       </div>
                       <h3>Customer Churn prediction</h3>
                       <p>
@@ -220,7 +230,8 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                        
+                        <img src = {icon3} alt = "banner" width="20%" />
                       </div>
                       <h3>Product Recommendation</h3>
                       <p>
@@ -240,7 +251,7 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon4} alt = "banner" width="20%" />
                       </div>
                       <h3>Predictive Maintenance</h3>
                       <p>
@@ -259,7 +270,7 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon5} alt = "banner" width="20%" />
                       </div>
                       <h3>Demand Forecasting</h3>
                       <p>
@@ -277,7 +288,7 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon6} alt = "banner" width="20%" />
                       </div>
                       <h3>Computer Vision</h3>
                       <p>
@@ -295,7 +306,7 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon7} alt = "banner" width="20%" />
                       </div>
                       <h3>Generative AI</h3>
                       <p>
@@ -315,7 +326,7 @@ const AIAndML = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        <i className="flaticon-money"></i>
+                      <img src = {icon8} alt = "banner" width="20%" />
                       </div>
                       <h3>Natural Language Processing (NLP)</h3>
                       <p>
