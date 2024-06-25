@@ -6,10 +6,14 @@ import team2 from "../../images/team/nitesh11.png"
 import team3 from "../../images/team/rashid11.png"
 import team4 from "../../images/team/vamsi11.png"
 import team5 from "../../images/team/arun1.png"
-import team6 from "../../images/team/hemanth.jpg"
+import team6 from "../../images/team/hemanth55.png"
 import team7 from "../../images/team/fathima.png"
 import team8 from "../../images/team/farhath1.png"
-import team9 from "../../images/team/sameer.jpg"
+import team9 from "../../images/team/sameer55.png"
+import team10 from "../../images/team/sai11.png"
+import team11 from "../../images/team/vijay11.png"
+import team12 from "../../images/team/ranga11.png"
+
 const TeamStyleOne = () => {
   return (
     <>
@@ -252,6 +256,90 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
+
+
+            
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team10} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Sai Teja</h3>
+                  <span>Scrum Master / PM</span>
+                </div>
+              </div>
+            </div>
+
+
+
+            
+            
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team11} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Vijay Kumari </h3>
+                  <span>QA Engineer</span>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team12} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Ranga Reddy </h3>
+                  <span>Devops Engineer</span>
+                </div>
+              </div>
+            </div>
+
 
 
 
