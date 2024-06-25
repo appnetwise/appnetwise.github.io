@@ -1,5 +1,6 @@
 import React from "react"
-import service2 from "../../images/services/service2.png"
+import service1 from "../../images/services/sd1.jpg"
+import service2 from "../../images/services/sd2.jpg"
 import service from "../../images/services/software-development.jpg"
 import ServiceSidebar from "./ServiceSidebar"
 import SliderComponent from "./SliderComponent"
@@ -16,7 +17,7 @@ const SoftwareDevelopment = () => {
         " SQL /NO SQL",
         "MULESOFT",
       ],
-      image: service2,
+      image: service1,
     },
 
     {

@@ -1,5 +1,7 @@
 import React from "react"
-import service2 from "../../images/services/service2.png"
+import service1 from "../../images/services/bc1.jpg"
+import service2 from "../../images/services/bc2.jpg"
+import service3 from "../../images/services/bc3.jpg"
 import service from "../../images/services/blockchain.png"
 import image from "../../images/blockchain-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
@@ -16,13 +18,13 @@ const Blockchain = () => {
 
     {
       content:
-        "We use Fireblocks for secure asset storage and transfer, along with Hardhat and Truffle Suite for efficient smart contract development, testing, and deployment, ensuring robust and reliable solutions.",
+        "In our blockchain development process, we employ cutting-edge tools such as Fireblocks, Hardhat, and Truffle Suite. Fireblocks ensures secure storage and transfer of digital assets across multiple blockchain networks. Hardhat and Truffle Suite streamline smart contract development, testing, and deployment, enabling us to deliver robust and reliable blockchain solutions..",
       features: ["FIREBLOCKS", " HARDHAT ", "TRUFFLE"],
-      image: service2,
+      image: service1,
     },
     {
       content:
-        "We employ Web3.js, Metamask, Ether.js, and Solidity with ERC standards to streamline Ethereum integration and smart contract development, ensuring efficient and robust solutions.",
+        "In our blockchain development process, we leverage Web3.js, Metamask, Ether.js, and Solidity in conjunction with ERC standards. Web3.js enables Ethereum interaction, Metamask acts as a blockchain gateway and wallet, Ether.js facilitates Ethereum integration, and Solidity is utilized for smart contract development. These tools collectively enhance our ability to create robust blockchain solutions efficiently.",
       features: [
         "WEB3.JS",
         " METAMASK ",
@@ -30,7 +32,7 @@ const Blockchain = () => {
         "ETHER.JS",
         "SOLIDITY",
       ],
-      image: service2,
+      image: service3,
     },
   ]
   return (

@@ -1,5 +1,5 @@
 import React from "react"
-import aboutImage from "../../images/about/about111.png"
+import aboutImage from "../../images/about/about.jpg"
 import starIcon from "../../images/star-icon.png"
 import icon4 from "../../images/icons/ADVICEICON.png"
 import icon5 from "../../images/icons/BUILDICON.png"
@@ -13,8 +13,12 @@ const AboutUsContent = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
-              <div className="about-image" >
-                <img src={aboutImage} alt="banner"/>
+              <div className="about-image">
+                <img
+                  src={aboutImage}
+                  alt="banner"
+                  style={{ maxWidth: "90%" }}
+                />
               </div>
             </div>
 
@@ -58,7 +62,7 @@ const AboutUsContent = () => {
                       </p>
                     </li>
                     <li>
-                      <img src={icon5} alt="banner" width="20%"/>
+                      <img src={icon5} alt="banner" width="20%" />
                       <h3>Build</h3>
                       <p>
                         Building solutions that balance today’s needs with
@@ -66,7 +70,7 @@ const AboutUsContent = () => {
                       </p>
                     </li>
                     <li>
-                      <img src={icon6} alt="banner" width="20%"/>
+                      <img src={icon6} alt="banner" width="20%" />
                       <h3>Collaborate</h3>
                       <p>
                         Co-creating and developing a transformative program

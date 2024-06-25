@@ -68,7 +68,7 @@ const Banner = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <img src={bannerImg} alt="banner" />
+                <img src={bannerImg} alt="banner" style={{ width: "700px" }} />
               </div>
             </div>
           </div>

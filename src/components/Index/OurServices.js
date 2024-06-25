@@ -1,6 +1,6 @@
 import React from "react"
-import service1 from "../../images/banner22.jpg"
-import service2 from "../../images/banner33.png"
+import service1 from "../../images/image.jpg"
+import service2 from "../../images/home2.jpg"
 import service3 from "../../images/banner44.jpg"
 
 const OurServices = () => {
@@ -16,7 +16,7 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
+            <div className="col-lg-6 col-md-12 pt-40">
               <div className="about-content">
                 <div className="content">
                   {/* <span className="sub-title">

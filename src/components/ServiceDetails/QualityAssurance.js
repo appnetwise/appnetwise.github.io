@@ -2,7 +2,13 @@ import React from "react"
 
 import image from "../../images/qa-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
-import service2 from "../../images/services/service2.png"
+import service3 from "../../images/services/qa3.jpg"
+import service1 from "../../images/services/qa1.jpg"
+import service2 from "../../images/services/qa2.jpg"
+import service4 from "../../images/services/qa4.jpg"
+import service5 from "../../images/services/qa5.jpg"
+import service6 from "../../images/services/qa6.jpg"
+import service7 from "../../images/services/qa7.jpg"
 
 import service from "../../images/services/qa.jpg"
 
@@ -14,7 +20,7 @@ const QualityAssurance = () => {
       content:
         "API testing tools are essential for verifying the functionality, performance, and security of Application Programming Interfaces (APIs).",
       features: ["JMETER", "POSTMAN", "REST ASSURED"],
-      image: service2,
+      image: service1,
     },
     {
       content:
@@ -26,31 +32,31 @@ const QualityAssurance = () => {
       content:
         "Automated UI testing tools ensure software applications meet design specifications and are free of functional defects. They deliver a consistent user experience across various browsers and platforms.",
       features: ["SELENIUM", "PROTRACTOR", "CYPRESS", "PLAYWRIGHT"],
-      image: service2,
+      image: service3,
     },
     {
       content:
         "Security testing tools are crucial for identifying and addressing vulnerabilities in software applications, ensuring robust protection against security threats.",
       features: ["HCL APPSCAN", "BURP SUITE", "ZED ATTACK PROXY (ZAP)"],
-      image: service2,
+      image: service4,
     },
     {
       content:
         "Automated mobile testing tools are essential for ensuring the functionality, usability, and performance of mobile applications across different devices and platforms.",
       features: ["APPIUM"],
-      image: service2,
+      image: service5,
     },
     {
       content:
         "Continuous Integration (CI) and Continuous Delivery (CD) tools play a vital role in automating the software development and release processes.",
       features: ["CI / CD", "JENKINS"],
-      image: service2,
+      image: service6,
     },
     {
       content:
         "Test management and defect tracking tools are essential for organizing test activities, managing test cases, and tracking and resolving defects throughout the software development lifecycle.",
       features: ["JIRA", "AZURE DEVOPS", "XRAY"],
-      image: service2,
+      image: service7,
     },
   ]
   return (

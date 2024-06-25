@@ -1,15 +1,21 @@
 import React from "react"
-import icon1 from "../../images/funfacts/fun-icon1.png"
+
 import image from "../../images/devops-flow.png"
 import ServiceSidebar from "./ServiceSidebar"
-import service2 from "../../images/services/service2.png"
+import service1 from "../../images/services/d1.jpg"
+import service2 from "../../images/services/d2.png"
+import service3 from "../../images/services/d3.jpg"
+import service4 from "../../images/services/d4.jpg"
+import service5 from "../../images/services/d5.jpg"
+import service6 from "../../images/services/d6.jpg"
+import service7 from "../../images/services/d7.jpg"
 import service from "../../images/services/devops.jpg"
 import SliderComponent from "./SliderComponent"
 
 const DevOps = () => {
   const slidesData = [
     {
-      image: service,
+      image: service1,
       content: (
         <p>
           <b className="bold-text-color">
@@ -22,7 +28,7 @@ const DevOps = () => {
       features: ["JENKINS", "GITLAB", "AWS CODEPIPELINE", "AZURE PIPELINE"],
     },
     {
-      image: service,
+      image: service2,
       content: (
         <p>
           <b className="bold-text-color">Security Automation:</b> Automates
@@ -34,7 +40,7 @@ const DevOps = () => {
       features: ["SECURITY ORCHESTRATION", "NESSUS", "OPENVAS", "CHEF"],
     },
     {
-      image: service,
+      image: service3,
       content: (
         <p>
           <b className="bold-text-color">Cloud Migration and Management:</b> The
@@ -53,7 +59,7 @@ const DevOps = () => {
       ],
     },
     {
-      image: service,
+      image: service4,
       content: (
         <p>
           <b className="bold-text-color">Container Registries:</b> Serve as
@@ -67,7 +73,7 @@ const DevOps = () => {
       features: ["DOCKER HUB", "AMAZON ECR", "AZURE CONTAINER REGISTRY"],
     },
     {
-      image: service,
+      image: service5,
       content: (
         <p>
           <b className="bold-text-color">Monitoring and Logging:</b>{" "}
@@ -87,7 +93,7 @@ const DevOps = () => {
       ],
     },
     {
-      image: service,
+      image: service6,
       content: (
         <p>
           <b className="bold-text-color">Infrastructure as Code (IaC):</b>{" "}
@@ -105,7 +111,7 @@ const DevOps = () => {
       ],
     },
     {
-      image: service,
+      image: service7,
       content: (
         <p>
           <b className="bold-text-color">Containerization and Orchestration:</b>{" "}
@@ -121,18 +127,6 @@ const DevOps = () => {
         "APACHE MESOS",
         "AMAZON ECE",
       ],
-    },
-    {
-      image: service,
-      content: (
-        <p>
-          <b className="bold-text-color">Machine Learning Operations Tools:</b>{" "}
-          MLflow, Kubeflow, Neptune, Comet ML, and Metaflow streamline machine
-          learning workflows, from development to deployment and monitoring,
-          enhancing collaboration across teams.
-        </p>
-      ),
-      features: ["MLFLOW", "KUBEFLOW", "NEPTUNE", "COMET ML", "METAFLOW"],
     },
   ]
 

@@ -2,7 +2,11 @@ import React from "react"
 import SliderComponent from "./SliderComponent"
 
 import ServiceSidebar from "./ServiceSidebar"
-import service2 from "../../images/services/service2.png"
+import service1 from "../../images/services/ai1.jpg"
+import service2 from "../../images/services/ai2.jpg"
+import service3 from "../../images/services/ai3.jpg"
+import service4 from "../../images/services/ai4.jpg"
+import service5 from "../../images/services/ai5.jpg"
 import service from "../../images/services/aiml.jpg"
 
 import image from "../../images/ai-ml-flow.png"
@@ -10,7 +14,7 @@ import image from "../../images/ai-ml-flow.png"
 const AIAndML = () => {
   const slidesData = [
     {
-      image: service2,
+      image: service1,
       content: (
         <p>
           <b className="bold-text-color">Data Visualization Tools:</b> Tableau
@@ -34,7 +38,7 @@ const AIAndML = () => {
       features: ["KERAS", "MXNET"],
     },
     {
-      image: service2,
+      image: service3,
       content: (
         <p>
           <b className="bold-text-color">Machine Learning Libraries:</b>{" "}
@@ -47,7 +51,7 @@ const AIAndML = () => {
       features: ["TENSORFLOW", "PYTORCH", "SCIKIT-LEARN"],
     },
     {
-      image: service2,
+      image: service4,
       content: (
         <p>
           <b className="bold-text-color">Machine Learning Operations Tools:</b>{" "}
@@ -59,7 +63,7 @@ const AIAndML = () => {
       features: ["MLFLOW", "KUBEFLOW", "NEPTUNE", "COMET ML", "METAFLOW"],
     },
     {
-      image: service2,
+      image: service5,
       content: (
         <p>
           <b className="bold-text-color">Cloud Platforms:</b> AWS SageMaker,
