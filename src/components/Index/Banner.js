@@ -32,7 +32,7 @@ const Banner = () => {
         {currentIndex === 1 && <Banner3 />}
       </div>
 
-      <div className="slider-dots">
+      {/* <div className="slider-dots">
         {[0, 1, 2].map(index => (
           <span
             key={index}
@@ -44,7 +44,7 @@ const Banner = () => {
             aria-label={`Slide ${index + 1}`}
           ></span>
         ))}
-      </div>
+      </div> */}
     </div>
   )
 }
