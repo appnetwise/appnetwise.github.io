@@ -13,7 +13,7 @@ import icon8 from "../../images/services/icon8c.png"
 const OurSolutions = () => {
   return (
     <>
-      <section className="solutions-area pb-70">
+      <section id="our-services" className="solutions-area pb-70">
         <div className="container">
           <div className="section-title">
             <span className="sub-title">
@@ -98,8 +98,8 @@ const OurSolutions = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
-                <div className="icon" >
-                  <img src={icon4} alt="banner" width="20%"  />
+                <div className="icon">
+                  <img src={icon4} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/software-development">
@@ -125,7 +125,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon5} alt="banner" width="20%"  />
+                  <img src={icon5} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/block-chain">Blockchain</Link>
@@ -168,7 +168,7 @@ const OurSolutions = () => {
             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
               <div className="single-boxes-item">
                 <div className="icon">
-                  <img src={icon7} alt="banner" width="20%"  />
+                  <img src={icon7} alt="banner" width="20%" />
                 </div>
                 <h3>
                   <Link to="/services/quality-assurance">
@@ -216,4 +216,4 @@ const OurSolutions = () => {
   )
 }
 
-export default OurSolutions
+export default OurSolutions

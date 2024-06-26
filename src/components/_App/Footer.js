@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../../images/logo.png"
+import logo from "../../images/logo1.svg"
 import footerMap from "../../images/footer-map.png"
 
 const Footer = () => {
@@ -13,8 +13,7 @@ const Footer = () => {
           <div className="col-lg-4 col-sm-6">
             <div className="single-footer-widget">
               <Link to="/" className="logo">
-                {/* <img src={logo} alt="logo" /> */}
-                <h3>Appnetwise</h3>
+                <img src={logo} alt="logo" />
               </Link>
               <p>
                 From strategy to execution, accelerate business enablement and

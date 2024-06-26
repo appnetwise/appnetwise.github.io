@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import mission2 from "../../images/our-mission/our-mission2.png"
+import mission2 from "../../images/about/abou1.jpg"
 import shape1 from "../../images/our-mission/our-mission-shape1.png"
 
 const OurMission = () => {
@@ -12,53 +12,42 @@ const OurMission = () => {
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-content">
                 <div className="content">
-                  <h2>
-                    Real-world Data Challenges Prepare to Be A Data Science
-                    Leader
-                  </h2>
+                  <h2>Managed Dedicated Resources</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                    We provide clients with excellent engineers working
+                    dedicatedly full-time 8*5 remotely.
                   </p>
+                  <p>
+                    Continuous communication over teams, daily project updates
+                    on notion, whatsapp groups for faster communication.
+                  </p>
+                  <p>Benefits of having managed dedicated resources :</p>
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Leadership-Focused
-                      Learning
+                      <i className="flaticon-tick"></i>Your own dedicated team
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Experts at Teaching
-                      Online
+                      <i className="flaticon-tick"></i> Onboarding and relieving
+                      engineers instantly (as low as 1 week to onboard new
+                      member)
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Proven Career Outcomes
+                      <i className="flaticon-tick"></i> Member of big team of
+                      experienced engineers.
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Diverse Backgrounds
-                      Welcome
-                    </li>
-                    <li>
-                      <i className="flaticon-tick"></i> The Basics of Machine
-                      Learning
+                      <i className="flaticon-tick"></i> Optimized and cost
+                      reduction of upto 50 % as compared to on-shore team
                     </li>
                   </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </p>
-
-                  <Link to="/membership-levels" className="default-btn">
-                    <i className="flaticon-right"></i>
-                    Apply Now <span></span>
-                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="our-mission-image">
-                <img src={mission2} alt="shape" />
                 <div className="shape">
-                  <img src={shape1} alt="shape" />
+                  <img src={mission2} alt="shape" />
                 </div>
               </div>
             </div>

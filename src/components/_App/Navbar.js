@@ -2,7 +2,7 @@ import React from "react"
 import { useRecoilState } from "recoil"
 import { collapsedState } from "../../utils/recoil-atoms"
 import { Link } from "gatsby"
-import logo from "../../images/logo.png"
+import logo1 from "../../images/logo1.svg"
 
 const Navbar = () => {
   const [collapsed, setCollapsed] = useRecoilState(collapsedState)
@@ -40,8 +40,8 @@ const Navbar = () => {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/" onClick={handleLogoClick} className="navbar-brand">
-                {/* <img src={logo} alt="Logo" /> */}
-                <h1 style={{ color: "#0c7264" }}>APPNETWISE</h1>
+                <img src={logo1} alt="Logo" />
+                {/* <h1 style={{ color: "#0c7264" }}>APPNETWISE</h1> */}
               </Link>
 
               <button
@@ -432,36 +432,12 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      to="#"
-                      onClick={e => e.preventDefault()}
+                      to="/blog"
+                      onClick={() => setCollapsed(true)}
                       className="nav-link"
                     >
-                      Blog <i className="bx bx-chevron-down"></i>
+                      Blog
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          to="/blog"
-                          activeClassName="active"
-                          onClick={() => setCollapsed(true)}
-                          className="nav-link"
-                        >
-                          Blog
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          to="/blog/blog-details"
-                          activeClassName="active"
-                          onClick={() => setCollapsed(true)}
-                          className="nav-link"
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
                 </ul>
 
@@ -486,7 +462,7 @@ const Navbar = () => {
                       onClick={() => setCollapsed(true)}
                       className="default-btn"
                     >
-                      <i className="flaticon-right"></i> Get Started{" "}
+                      <i className="flaticon-right"></i> Contact Us{" "}
                       <span></span>
                     </Link>
                   </div>

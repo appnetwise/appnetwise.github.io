@@ -7,6 +7,7 @@ import PageBanner from "../../components/Common/PageBanner"
 import Footer from "../../components/_App/Footer"
 
 import OurSolutions from "../../components/Index/OurSolutions"
+import OurMission from "../../components/DataScienceOnlineCourses/OurMission"
 
 const ServicesPage = () => {
   return (
@@ -19,7 +20,7 @@ const ServicesPage = () => {
         homePageUrl="/"
         activePageText="Services"
       />
-
+      <OurMission />
       <OurSolutions />
 
       <Footer />
