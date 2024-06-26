@@ -41,5 +41,13 @@ module.exports = {
         icon: `./src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-source-blogger",
+      options: {
+        apiKey: "AIzaSyCrFZtxdzZgIQQorDTN6V7iT2feALlvQwE",
+        blogId: "5655676382908393141",
+        downloadImage: true,
+      },
+    },
   ],
 }

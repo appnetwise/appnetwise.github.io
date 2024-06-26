@@ -5,33 +5,44 @@ import Navbar from "../../components/_App/Navbar"
 import PageBanner from "../../components/Common/PageBanner"
 import BlogDetailsContent from "../../components/BlogContent/BlogDetailsContent"
 import Footer from "../../components/_App/Footer"
+import { graphql } from "gatsby"
 
-const BlogDetailsPage = () => {
+const BlogDetailsPage = ({ data }) => {
+  if (!data || !data.bloggerPost) {
+    return <div>Error: Blog post data is not available.</div>
+  }
+
+  const post = data.bloggerPost
+
   return (
     <Layout>
-
+      <Seo title={post.title} />
       <Navbar />
-
       <PageBanner
         pageTitle="Blog Details"
         homePageText="Home"
         homePageUrl="/"
         activePageText="Blog Details"
       />
-
-      <BlogDetailsContent />
-
+      <BlogDetailsContent post={post} />
       <Footer />
-
     </Layout>
   )
 }
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="Blog Details" />
+export const query = graphql`
+  query ($slug: String!) {
+    bloggerPost(slug: { eq: $slug }) {
+      slug
+      id
+      title
+      content
+      published
+      author {
+        displayName
+      }
+    }
+  }
+`
 
 export default BlogDetailsPage
