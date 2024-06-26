@@ -11014,12 +11014,18 @@ Go Top CSS
 }
 
 .slider-dots {
-  text-align: center;
-  margin-top: 20px;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
 }
 
 .dot {
-  height: 10px;
+  height: 8px;
   width: 10px;
   margin: 0 5px;
   background-color: #bbb;

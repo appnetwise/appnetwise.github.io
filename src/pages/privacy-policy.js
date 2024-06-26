@@ -22,7 +22,6 @@ const PrivacyPolicyPage = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-12">
               <div className="privacy-policy-content">
-                <h3></h3>
                 <p>
                   Thank you for visiting Appnetwise ("we", "us", "our"). This
                   Privacy Policy describes how we collect, use, and disclose
