@@ -11,13 +11,13 @@ const TermsOfServicePage = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Terms of Service"
+        pageTitle="Terms & Conditions"
         homePageText="Home"
         homePageUrl="/"
-        activePageText="Terms of Service"
+        activePageText="Terms & Conditions"
       />
 
-      <section className="terms-of-service-area ptb-100">
+      <section className="terms-of-service-area ptb-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-12">
@@ -60,8 +60,8 @@ const TermsOfServicePage = () => {
                 </p>
                 <h3>Contact Us</h3>
                 <p>
-                  If you have any questions about this Privacy Policy, please
-                  contact us at{" "}
+                  If you have any questions about these Terms, please contact us
+                  at
                   <a href="mailto:contact@gmail.com">contact@gmail.com</a>
                 </p>
               </div>

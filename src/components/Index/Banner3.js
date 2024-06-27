@@ -3,16 +3,15 @@ import { Link } from "gatsby"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-import bannerImg3 from "../../images/banner4.png"
+import bannerImg3 from "../../images/banner5.png"
 
 const Banner3 = () => {
-  // Initialize AOS for this banner
   React.useEffect(() => {
     AOS.init({
       duration: 1200,
       once: false,
     })
-    AOS.refresh() // Refresh AOS on component mount
+    AOS.refresh()
   }, [])
 
   return (
@@ -31,15 +30,17 @@ const Banner3 = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                Offshore Development
+                Offshore Engineering Team
               </h1>
-              <h4
+              <h5
                 data-aos="fade-left"
                 data-aos-duration="1200"
                 data-aos-delay="300"
               >
-                BUILD RUN TRANSFER
-              </h4>
+                <span className="highlight highlight-button">BUILD</span>
+                <span className="highlight highlight-button">RUN</span>
+                <span className="highlight highlight-button">TRANSFER</span>
+              </h5>
               <p
                 data-aos="fade-right"
                 data-aos-duration="1200"

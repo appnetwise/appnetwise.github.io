@@ -5115,9 +5115,3 @@
     max-width: 635px;
   }
 } /*# sourceMappingURL=responsive.css.map */
-
-@media (max-width: 900px) {
-  .slider-dots {
-    display: none;
-  }
-}

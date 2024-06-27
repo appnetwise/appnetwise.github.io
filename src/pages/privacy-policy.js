@@ -17,7 +17,7 @@ const PrivacyPolicyPage = () => {
         activePageText="Privacy Policy"
       />
 
-      <section className="privacy-policy-area ptb-100">
+      <section className="privacy-policy-area ptb-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-12">
