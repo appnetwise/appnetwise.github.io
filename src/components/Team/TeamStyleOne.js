@@ -11,9 +11,10 @@ import team7 from "../../images/team/fathima.png"
 import team8 from "../../images/team/farhath1.png"
 import team9 from "../../images/team/sameer55.png"
 import team10 from "../../images/team/sai11.png"
-import team11 from "../../images/team/vijay11.png"
+import team11 from "../../images/team/vijay1231.png"
 import team12 from "../../images/team/ranga11.png"
 import team13 from "../../images/team/karthik.png"
+import team14 from "../../images/team/mohiddin.png"
 
 const TeamStyleOne = () => {
   return (
@@ -27,6 +28,10 @@ const TeamStyleOne = () => {
             </span>
             <h2>Our Awesome Team</h2>
           </div>
+
+
+
+
 
           <div className="row">
             <div className="col-lg-3 col-sm-6">
@@ -50,6 +55,34 @@ const TeamStyleOne = () => {
                 <div className="content">
                   <h3>Dawood</h3>
                   <span>Director of Engineering</span>
+                </div>
+              </div>
+            </div>
+
+
+
+            
+          <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team14} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/mohiddin-shaik-1684604/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Mohiddin shaik</h3>
+                  <span>Director Cloud & Integration Practice</span>
                 </div>
               </div>
             </div>
