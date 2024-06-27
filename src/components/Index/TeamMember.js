@@ -30,7 +30,7 @@ const TeamMember = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/dawood-abdullah-mohammed-72687519/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -55,7 +55,7 @@ const TeamMember = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/niteshkhandelwal/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -79,7 +79,7 @@ const TeamMember = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/rashidtruba/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -103,7 +103,7 @@ const TeamMember = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/saivamsi9594/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"

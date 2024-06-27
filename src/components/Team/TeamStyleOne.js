@@ -36,7 +36,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/dawood-abdullah-mohammed-72687519/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -61,7 +61,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/niteshkhandelwal/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -85,7 +85,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/rashidtruba/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -109,7 +109,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/saivamsi9594/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -161,7 +161,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/hari-hemanth-eagala-0a086a149/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -187,7 +187,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/fatima-zahara-mohammed-8284a524b/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -214,7 +214,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/farhath-ayesha-mohammad-59848724b/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -240,7 +240,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/sameer-basha-shaik-3a749926a/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -267,7 +267,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/saitejagurajala/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -296,7 +296,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/vijaya-kumari-74796b53/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -323,7 +323,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/ranga-reddy-3a7bb6178/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
