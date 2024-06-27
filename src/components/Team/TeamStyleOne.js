@@ -13,6 +13,7 @@ import team9 from "../../images/team/sameer55.png"
 import team10 from "../../images/team/sai11.png"
 import team11 from "../../images/team/vijay11.png"
 import team12 from "../../images/team/ranga11.png"
+import team13 from "../../images/team/karthik.png"
 
 const TeamStyleOne = () => {
   return (
@@ -251,7 +252,7 @@ const TeamStyleOne = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Sameer Shaik</h3>
+                  <h3>Sameer</h3>
                   <span>UI/UX FrontEnd Developer</span>
                 </div>
               </div>
@@ -336,6 +337,35 @@ const TeamStyleOne = () => {
                 <div className="content">
                   <h3>Ranga Reddy </h3>
                   <span>Devops Engineer</span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team13} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/ranga-reddy-3a7bb6178/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Karthik </h3>
+                  <span>QA Engineer</span>
                 </div>
               </div>
             </div>
