@@ -1,18 +1,15 @@
-// src/components/BlogDetailsContent.js
-
-import React from "react";
-import { Link } from "gatsby";
-import parse from "react-html-parser";
-import BlogSidebar from "./BlogSidebar";
-import CopyButton from "../copy-button/CopyButton";
-
+import React from "react"
+import { Link } from "gatsby"
+import parse from "react-html-parser"
+import BlogSidebar from "./BlogSidebar"
+import CopyButton from "../copy-button/CopyButton"
 
 const BlogDetailsContent = ({ post }) => {
-  const { slug, published } = post;
-  const year = new Date(published).getFullYear();
-  let month = new Date(published).getMonth() + 1;
-  month = month < 10 ? `0${month}` : month;
-  const shareUrl = `https://appnetwise.blogspot.com/${year}/${month}/${slug}.html`;
+  const { slug, published } = post
+  const year = new Date(published).getFullYear()
+  let month = new Date(published).getMonth() + 1
+  month = month < 10 ? `0${month}` : month
+  const shareUrl = `https://appnetwise.blogspot.com/${year}/${month}/${slug}.html`
 
   return (
     <section className="blog-details-area ptb-100">
@@ -49,7 +46,7 @@ const BlogDetailsContent = ({ post }) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default BlogDetailsContent;
+export default BlogDetailsContent
