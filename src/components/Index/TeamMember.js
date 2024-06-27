@@ -1,11 +1,11 @@
-import React from "react";
-import starIcon from "../../images/star-icon.png";
-import team1 from "../../images/team/dawood11.png";
-import team2 from "../../images/team/nitesh11.png";
-import team3 from "../../images/team/rashid11.png";
-import team4 from "../../images/team/mohiddin.png";
+import React from "react"
+import starIcon from "../../images/star-icon.png"
+import team1 from "../../images/team/dawood11.png"
+import team2 from "../../images/team/nitesh11.png"
+import team3 from "../../images/team/rashid11.png"
+import team4 from "../../images/team/mohiddin.png"
 
-import { Link } from "gatsby";
+import { Link } from "gatsby"
 
 const TeamMember = () => {
   return (
@@ -18,34 +18,7 @@ const TeamMember = () => {
           </span>
           <h2>Our Awesome Team</h2>
         </div>
-
         <div className="row">
-          <div className="col-lg-3 col-sm-6">
-            <div className="single-scientist-item-box">
-              <div className="image">
-                <img src={team1} alt="team member Dawood" />
-
-                <ul className="social">
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/dawood-abdullah-mohammed-72687519/"
-                      className="d-block"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="LinkedIn profile of Dawood Abdullah Mohammed"
-                    >
-                      <i className="bx bxl-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="content">
-                <h3>Dawood</h3>
-                <span>Director of Engineering</span>
-              </div>
-            </div>
-          </div>
-
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
@@ -68,6 +41,31 @@ const TeamMember = () => {
               <div className="content">
                 <h3>Mohiddin Shaik</h3>
                 <span>Director Cloud & Integration Practice</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-sm-6">
+            <div className="single-scientist-item-box">
+              <div className="image">
+                <img src={team1} alt="team member Dawood" />
+
+                <ul className="social">
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/dawood-abdullah-mohammed-72687519/"
+                      className="d-block"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="LinkedIn profile of Dawood Abdullah Mohammed"
+                    >
+                      <i className="bx bxl-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="content">
+                <h3>Dawood</h3>
+                <span>Director of Engineering</span>
               </div>
             </div>
           </div>
@@ -123,8 +121,8 @@ const TeamMember = () => {
               </div>
             </div>
           </div>
-        </div> {/* Closing the div with class "row" here */}
-
+        </div>{" "}
+        {/* Closing the div with class "row" here */}
         <div className="col-lg-12 col-md-12">
           <div className="load-more-btn text-center">
             <Link to="/team" className="default-btn">
@@ -135,7 +133,7 @@ const TeamMember = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default TeamMember;
+export default TeamMember
