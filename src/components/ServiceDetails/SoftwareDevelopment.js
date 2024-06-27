@@ -1,12 +1,12 @@
 import React from "react"
-import service1 from "../../images/services/sd1.jpg"
+import service1 from "../../images/services/sd3.jpg"
 import service2 from "../../images/services/sd2.jpg"
-import service from "../../images/services/software-development.jpg"
+import service from "../../images/services/sd1.jpg"
 import ServiceSidebar from "./ServiceSidebar"
 import SliderComponent from "./SliderComponent"
-import icon1 from"../../images/icons/microservices.png"
-import icon2 from"../../images/icons/eventdriven.png"
-import icon3 from"../../images/icons/cloudnative.png"
+import icon1 from "../../images/icons/microservices.png"
+import icon2 from "../../images/icons/eventdriven.png"
+import icon3 from "../../images/icons/cloudnative.png"
 
 const SoftwareDevelopment = () => {
   const slidesData = [
@@ -92,8 +92,7 @@ const SoftwareDevelopment = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        
-                        <img src = {icon1} alt = "banner" width="24%" />
+                        <img src={icon1} alt="banner" width="24%" />
                       </div>
                       <h3>Microservices</h3>
                       <p>
@@ -113,9 +112,7 @@ const SoftwareDevelopment = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                      <img src = {icon2} alt = "banner" width="24%" />
-                        
-                        
+                        <img src={icon2} alt="banner" width="24%" />
                       </div>
                       <h3>Event driven solutions</h3>
                       <p>
@@ -137,8 +134,7 @@ const SoftwareDevelopment = () => {
                   >
                     <div className="single-solutions-box single-solutions-box-hover">
                       <div className="icon">
-                        
-                        <img src = {icon3} alt = "banner" width="24%" />
+                        <img src={icon3} alt="banner" width="24%" />
                       </div>
                       <h3>Cloud-Native Architecture</h3>
                       <p>

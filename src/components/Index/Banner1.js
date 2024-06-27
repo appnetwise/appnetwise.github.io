@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-import bannerImg1 from "../../images/banner1.png"
+import bannerImg1 from "../../images/banner.png"
 
 const Banner1 = () => {
   // Initialize AOS for this banner

@@ -47,7 +47,7 @@ const BlogPage = () => {
       />
       <div className="blog-area ptb-100">
         <div className="container">
-          <div className="row justify-content">
+          <div className="row">
             {posts.map(({ node }) => (
               <BlogCard key={node.id} post={node} />
             ))}

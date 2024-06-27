@@ -2,9 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 const BlogCard = ({ post }) => {
-  console.log(post)
   return (
-    <div className="col-lg-4 col-md-6">
+    <div className="col-lg-4 col-md-6 mt-40">
       <div className="single-blog-post bg-fffbf5">
         <div className="post-image">
           <Link to={`/blog/${post.slug}`}>
