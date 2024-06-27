@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
-import bannerImg3 from "../../images/banner4.png"
+import bannerImg3 from "../../images/banner1.png"
 
 const Banner3 = () => {
   React.useEffect(() => {
