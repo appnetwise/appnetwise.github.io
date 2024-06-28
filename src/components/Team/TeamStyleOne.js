@@ -19,7 +19,7 @@ import team14 from "../../images/team/mobest12.png"
 const TeamStyleOne = () => {
   return (
     <>
-       <section className="scientist-area pt-100 pb-70">
+      <section className="scientist-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
             <span className="sub-title">
@@ -32,7 +32,32 @@ const TeamStyleOne = () => {
 
 
 
+
           <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team14} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/mohiddin-shaik-1684604/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Mohiddin shaik</h3>
+                  <span>Director Cloud & Integration Practice</span>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -58,7 +83,10 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+
+
+            
+          <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
                   <img src={team14} alt="team" />
@@ -78,14 +106,10 @@ const TeamStyleOne = () => {
                 </div>
                 <div className="content">
                   <h3>Mohiddin shaik</h3>
-                  <span>Head Of Cloud & Integration Practice</span>
+                  <span>Director Cloud & Integration Practice</span>
                 </div>
               </div>
             </div>
-
-
-
-            
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
@@ -160,7 +184,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -186,11 +209,10 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-            
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
-                <div className="image" >
-                  <img src={team6} alt="team"  />
+                <div className="image">
+                  <img src={team6} alt="team" />
 
                   <ul className="social">
                     <li>
@@ -212,7 +234,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-            
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -238,8 +259,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-
-            
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -265,7 +284,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-            
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -291,8 +309,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-
-            
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -318,10 +334,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-
-
-            
-            
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -346,8 +358,6 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
-
-
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
@@ -374,10 +384,6 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-
-
-
-
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -402,14 +408,7 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
-
-
-
-
-
-
           </div>
-          
         </div>
       </section>
     </>
