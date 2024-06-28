@@ -1,6 +1,6 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
-import contact from "../../images/contact.png"
+import contact from "../../images/contact.jpg"
 
 const ContactForm = () => {
   return (
@@ -13,10 +13,6 @@ const ContactForm = () => {
               Get in Touch
             </span>
             <h2>Ready to Get Started?</h2>
-            <p>
-              Your email address will not be published. Required fields are
-              marked *
-            </p>
           </div>
 
           <div className="row">
@@ -28,65 +24,25 @@ const ContactForm = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
-                <form id="contactForm">
-                  <div className="row">
-                    <div className="col-lg-12 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          className="form-control"
-                          required
-                          placeholder="Your name"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-6">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control"
-                          required
-                          placeholder="Your email address"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="phone_number"
-                          className="form-control"
-                          required
-                          placeholder="Your phone number"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <div className="form-group">
-                        <textarea
-                          name="message"
-                          className="form-control"
-                          cols="30"
-                          rows="6"
-                          required
-                          placeholder="Write your message..."
-                        />
-                      </div>
-                    </div>
-
-                    <div className="col-lg-12 col-md-12">
-                      <button type="submit" className="default-btn">
-                        <i className="flaticon-tick"></i>
-                        Send Message <span></span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
+                {/* Replace with your Google Form iframe embed code */}
+                {/* <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=KUoAMHe9x0G4YGji2tQ-CCjKWKRYuxtIqHoXOeDJTnBUNEVHMTFBQ0hFMTZVUlJCNDBJT0VIV1ZFRS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> */}
+                <iframe
+                  title="Google Form"
+                  src="https://forms.office.com/Pages/ResponsePage.aspx?id=KUoAMHe9x0G4YGji2tQ-CCjKWKRYuxtIqHoXOeDJTnBUNEVHMTFBQ0hFMTZVUlJCNDBJT0VIV1ZFRS4u&embed=true"
+                  width="640"
+                  height="480"
+                  frameBorder="0"
+                  marginHeight="0"
+                  marginWidth="0"
+                  style={{
+                    border: "none",
+                    maxWidth: "100%",
+                    maxHeight: "100vh",
+                  }}
+                  allowFullScreen
+                >
+                  Loading…
+                </iframe>
               </div>
             </div>
           </div>

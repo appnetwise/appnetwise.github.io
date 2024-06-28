@@ -61,8 +61,10 @@ const TermsOfServicePage = () => {
                 <h3>Contact Us</h3>
                 <p>
                   If you have any questions about these Terms, please contact us
-                  at
-                  <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+                  at{" "}
+                  <a href="mailto:connect@appnetwise.com">
+                    connect@appnetwise.com
+                  </a>
                 </p>
               </div>
             </div>

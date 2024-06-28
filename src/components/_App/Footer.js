@@ -87,7 +87,9 @@ const Footer = () => {
                 </li> */}
                 <li>
                   <i className="bx bx-envelope"></i>
-                  <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+                  <a href="mailto:connect@appnetwise.com">
+                    connect@appnetwise.com
+                  </a>
                 </li>
               </ul>
             </div>
@@ -98,7 +100,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                Copyright @2022<strong>Appnetwise</strong> All rights reserved{" "}
+                Copyright @2022 <strong>Appnetwise</strong> All rights reserved{" "}
               </p>
             </div>
 

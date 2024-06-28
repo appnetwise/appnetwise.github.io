@@ -39,6 +39,9 @@ const OurServices = () => {
                       Carbon Market
                     </li>
                     <li className="single-industries-serve-box">
+                      <i className="flaticon-tick"></i> GreenIT
+                    </li>
+                    <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       Audit & Taxation
                     </li>
@@ -60,7 +63,7 @@ const OurServices = () => {
                     </li>
                     <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
-                      Media and BroadCasting
+                      E-Commerce
                     </li>
                     <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
@@ -68,10 +71,6 @@ const OurServices = () => {
                     </li>
                     <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>Open Banking & Finance
-                    </li>
-                    <li className="single-industries-serve-box">
-                      <i className="flaticon-tick"></i> GreenIT (ESG &
-                      Sustainability)
                     </li>
                   </ul>
                 </div>
@@ -196,10 +195,7 @@ const OurServices = () => {
                       <i className="flaticon-tick"></i>
                       Agile
                     </li>
-                    <li className="single-industries-serve-box">
-                      <i className="flaticon-tick"></i>
-                      On-budget
-                    </li>
+
                     <li className="single-industries-serve-box">
                       <i className="flaticon-tick"></i>
                       On-time
