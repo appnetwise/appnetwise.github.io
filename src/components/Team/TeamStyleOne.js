@@ -29,10 +29,6 @@ const TeamStyleOne = () => {
             <h2>Our Awesome Team</h2>
           </div>
 
-
-
-
-
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
@@ -54,7 +50,7 @@ const TeamStyleOne = () => {
                 </div>
                 <div className="content">
                   <h3>Mohiddin shaik</h3>
-                  <span>Director Cloud & Integration Practice</span>
+                  <span>CTO</span>
                 </div>
               </div>
             </div>
@@ -79,34 +75,6 @@ const TeamStyleOne = () => {
                 <div className="content">
                   <h3>Dawood</h3>
                   <span>Director of Engineering</span>
-                </div>
-              </div>
-            </div>
-
-
-
-            
-          <div className="col-lg-3 col-sm-6">
-              <div className="single-scientist-item-box">
-                <div className="image">
-                  <img src={team14} alt="team" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/mohiddin-shaik-1684604/"
-                        className="d-block"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h3>Mohiddin shaik</h3>
-                  <span>Director Cloud & Integration Practice</span>
                 </div>
               </div>
             </div>
@@ -138,30 +106,6 @@ const TeamStyleOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
-                  <img src={team3} alt="team" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/rashidtruba/"
-                        className="d-block"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h3>Rashid Ali</h3>
-                  <span>Fullstack Software Engineer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-scientist-item-box">
-                <div className="image">
                   <img src={team4} alt="team" />
 
                   <ul className="social">
@@ -180,6 +124,30 @@ const TeamStyleOne = () => {
                 <div className="content">
                   <h3>Sai Vamsi</h3>
                   <span>DevOps Tech Lead</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team3} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/rashidtruba/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Rashid Ali</h3>
+                  <span>Fullstack Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -233,82 +201,6 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-scientist-item-box">
-                <div className="image">
-                  <img src={team7} alt="team" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/fatima-zahara-mohammed-8284a524b/"
-                        className="d-block"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h3>Fathima Zahara</h3>
-                  <span>QA Engineer</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-scientist-item-box">
-                <div className="image">
-                  <img src={team8} alt="team" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/farhath-ayesha-mohammad-59848724b/"
-                        className="d-block"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h3>Farhath Ayesha</h3>
-                  <span>UI/UX FrontEnd Developer</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-scientist-item-box">
-                <div className="image">
-                  <img src={team9} alt="team" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/sameer-basha-shaik-3a749926a/"
-                        className="d-block"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h3>Sameer</h3>
-                  <span>UI/UX FrontEnd Developer</span>
-                </div>
-              </div>
-            </div>
-
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -333,7 +225,55 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team13} alt="team" />
 
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Karthik </h3>
+                  <span>QA Engineer</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team7} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/fatima-zahara-mohammed-8284a524b/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Fatima Zahara</h3>
+                  <span>QA Engineer</span>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
@@ -387,12 +327,12 @@ const TeamStyleOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
-                  <img src={team13} alt="team" />
+                  <img src={team8} alt="team" />
 
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/ranga-reddy-3a7bb6178/"
+                        href="https://www.linkedin.com/in/farhath-ayesha-mohammad-59848724b/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
@@ -403,8 +343,32 @@ const TeamStyleOne = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Karthik </h3>
-                  <span>QA Engineer</span>
+                  <h3>Farhath Ayesha</h3>
+                  <span>UI/UX FrontEnd Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team9} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/sameer-basha-shaik-3a749926a/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Sameer</h3>
+                  <span>UI/UX FrontEnd Developer</span>
                 </div>
               </div>
             </div>
