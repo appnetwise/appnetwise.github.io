@@ -1,9 +1,9 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
-import team1 from "../../images/team/dawood001.png"
-import team2 from "../../images/team/niteshh.png"
-import team3 from "../../images/team/vam.png"
-import team4 from "../../images/team/monewgreen.png"
+import team1 from "../../images/team/d1.png"
+import team2 from "../../images/team/ni.png"
+import team3 from "../../images/team/vamsii.png"
+import team4 from "../../images/team/momomo.png"
 
 import { Link } from "gatsby"
 
@@ -40,7 +40,7 @@ const TeamMember = () => {
               </div>
               <div className="content">
                 <h3>Mohiddin Shaik</h3>
-                <span>Director Cloud & Integration Practice</span>
+                <span>CTO</span>
               </div>
             </div>
           </div>

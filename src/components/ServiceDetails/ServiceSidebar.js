@@ -73,7 +73,7 @@ const ServiceSidebar = () => {
                 <i className="bx bx-envelope"></i>
               </div>
               <span>Email:</span>
-              <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+              <a href="mailto:connect@appnetwise.com">connect@appnetwise.com</a>
             </li>
           </ul>
         </div>
