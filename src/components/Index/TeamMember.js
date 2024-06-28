@@ -1,9 +1,16 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
+<<<<<<< HEAD
 import team1 from "../../images/team/dawood001.png"
 import team2 from "../../images/team/niteshh.png"
 import team3 from "../../images/team/vam.png"
 import team4 from "../../images/team/monewgreen.png"
+=======
+import team1 from "../../images/team/dawood11.png"
+import team2 from "../../images/team/nitesh11.png"
+import team3 from "../../images/team/vamsi11.png"
+import team4 from "../../images/team/mohiddin.png"
+>>>>>>> b3c91337005e4ebc3b80bf306623a9f0312ec6d2
 
 import { Link } from "gatsby"
 
@@ -99,16 +106,15 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team3} alt="team member Rashid Ali" />
+                <img src={team3} alt="team" />
 
                 <ul className="social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/rashidtruba/"
+                      href="https://www.linkedin.com/in/saivamsi9594/"
                       className="d-block"
                       target="_blank"
                       rel="noreferrer"
-                      aria-label="LinkedIn profile of Rashid Ali"
                     >
                       <i className="bx bxl-linkedin"></i>
                     </a>
@@ -116,8 +122,8 @@ const TeamMember = () => {
                 </ul>
               </div>
               <div className="content">
-                <h3>Rashid Ali</h3>
-                <span>Fullstack Software Engineer</span>
+                <h3>Sai Vamsi</h3>
+                <span>DevOps Tech Lead</span>
               </div>
             </div>
           </div>
