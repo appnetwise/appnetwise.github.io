@@ -10,7 +10,6 @@ import Footer from "../components/_App/Footer"
 const ContactPage = () => {
   return (
     <Layout>
-
       <Navbar />
 
       <PageBanner
@@ -20,12 +19,9 @@ const ContactPage = () => {
         activePageText="Contact"
       />
 
-      <ContactInfo />
-
       <ContactForm />
 
       <Footer />
-
     </Layout>
   )
 }

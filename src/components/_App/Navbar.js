@@ -120,7 +120,6 @@ const Navbar = () => {
                           Team
                         </Link>
                       </li>
-                     
                     </ul>
                   </li>
 
