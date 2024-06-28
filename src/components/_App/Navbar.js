@@ -120,6 +120,16 @@ const Navbar = () => {
                           Team
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/team2"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Team 2
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 
