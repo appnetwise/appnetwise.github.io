@@ -5,7 +5,7 @@ import contact from "../../images/contact.jpg"
 const ContactForm = () => {
   return (
     <>
-      <section className="contact-area pb-100">
+      <section className="contact-area ptb-40">
         <div className="container">
           <div className="section-title">
             <span className="sub-title">
@@ -24,8 +24,6 @@ const ContactForm = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
-                {/* Replace with your Google Form iframe embed code */}
-                {/* <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=KUoAMHe9x0G4YGji2tQ-CCjKWKRYuxtIqHoXOeDJTnBUNEVHMTFBQ0hFMTZVUlJCNDBJT0VIV1ZFRS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> */}
                 <iframe
                   title="Google Form"
                   src="https://forms.office.com/Pages/ResponsePage.aspx?id=KUoAMHe9x0G4YGji2tQ-CCjKWKRYuxtIqHoXOeDJTnBUNEVHMTFBQ0hFMTZVUlJCNDBJT0VIV1ZFRS4u&embed=true"

@@ -1,9 +1,9 @@
 import React from "react"
 import ServiceSidebar from "./ServiceSidebar"
 import service from "../../images/cm.jpg"
-import service1 from "../../images/cm.jpg"
-import service2 from "../../images/c5.jpg"
-import service3 from "../../images/c3.jpg"
+import service1 from "../../images/c5.jpg"
+import service2 from "../../images/c3.jpg"
+import service3 from "../../images/c7.png"
 import SliderComponent from "./SliderComponent"
 
 import icon1 from "../../images/icons/businesscaseicon.png"
