@@ -14,7 +14,7 @@ import team10 from "../../images/team/sai11.png"
 import team11 from "../../images/team/vijay1231.png"
 import team12 from "../../images/team/ranga11.png"
 import team13 from "../../images/team/karthik.png"
-import team14 from "../../images/team/mohiddin.png"
+import team14 from "../../images/team/mobest12.png"
 
 const TeamStyleOne = () => {
   return (
@@ -28,7 +28,6 @@ const TeamStyleOne = () => {
             </span>
             <h2>Our Awesome Team</h2>
           </div>
-
 
 
 
@@ -59,10 +58,7 @@ const TeamStyleOne = () => {
               </div>
             </div>
 
-
-
-            
-          <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
                 <div className="image">
                   <img src={team14} alt="team" />
@@ -82,10 +78,14 @@ const TeamStyleOne = () => {
                 </div>
                 <div className="content">
                   <h3>Mohiddin shaik</h3>
-                  <span>Director Cloud & Integration Practice</span>
+                  <span>Head Of Cloud & Integration Practice</span>
                 </div>
               </div>
             </div>
+
+
+
+            
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
