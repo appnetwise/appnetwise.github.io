@@ -15,6 +15,8 @@ import team11 from "../../images/team/vijaya456.png"
 import team12 from "../../images/team/rangareddy1111.png"
 import team13 from "../../images/team/kakarthik.png"
 import team14 from "../../images/team/momo14563.jpg"
+import team15 from "../../images/team/sameena.png"
+
 
 const TeamStyleOne = () => {
   return (
@@ -377,6 +379,33 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
+
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team15} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/sameena-banu-376401294/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Sameena Banu </h3>
+                  <span>HR</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
