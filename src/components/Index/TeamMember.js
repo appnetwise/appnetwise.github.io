@@ -1,16 +1,9 @@
 import React from "react"
 import starIcon from "../../images/star-icon.png"
-<<<<<<< HEAD
 import team1 from "../../images/team/dawood001.png"
 import team2 from "../../images/team/niteshh.png"
 import team3 from "../../images/team/vam.png"
 import team4 from "../../images/team/monewgreen.png"
-=======
-import team1 from "../../images/team/dawood11.png"
-import team2 from "../../images/team/nitesh11.png"
-import team3 from "../../images/team/vamsi11.png"
-import team4 from "../../images/team/mohiddin.png"
->>>>>>> b3c91337005e4ebc3b80bf306623a9f0312ec6d2
 
 import { Link } from "gatsby"
 

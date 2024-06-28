@@ -82,30 +82,7 @@ const TeamStyleOne = () => {
 
 
             
-          <div className="col-lg-3 col-sm-6">
-              <div className="single-scientist-item-box">
-                <div className="image">
-                  <img src={team14} alt="team" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/mohiddin-shaik-1684604/"
-                        className="d-block"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="content">
-                  <h3>Mohiddin shaik</h3>
-                  <span>Director Cloud & Integration Practice</span>
-                </div>
-              </div>
-            </div>
+          
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
