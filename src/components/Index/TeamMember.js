@@ -3,7 +3,7 @@ import starIcon from "../../images/star-icon.png"
 import team1 from "../../images/team/d1.png"
 import team2 from "../../images/team/ni.png"
 import team3 from "../../images/team/vamsii.png"
-import team4 from "../../images/team/momo14563.jpg"
+import team4 from "../../images/team/mo7860.png"
 
 import { Link } from "gatsby"
 
