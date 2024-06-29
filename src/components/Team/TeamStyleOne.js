@@ -11,11 +11,13 @@ import team7 from "../../images/team/fffa.png"
 import team8 from "../../images/team/farhath741.png"
 import team9 from "../../images/team/sameer1111.png"
 import team10 from "../../images/team/sai471.png"
-import team11 from "../../images/team/vijaya456.png"
+import team11 from "../../images/team/vijaya45612.png"
 import team12 from "../../images/team/rangareddy1111.png"
 import team13 from "../../images/team/kakarthik.png"
-import team14 from "../../images/team/momo14563.jpg"
+import team14 from "../../images/team/mo7860.png"
 import team15 from "../../images/team/sameena.png"
+import team16 from "../../images/team/quimuddin123.png"
+import team17 from "../../images/team/sohel1.png"
 
 
 const TeamStyleOne = () => {
@@ -405,6 +407,65 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
+
+
+
+
+            
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team16} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/quimuddin-shaik-740999314/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Quimuddin </h3>
+                  <span>DevOps Engineer</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team17} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/quimuddin-shaik-740999314/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Burhanuddin </h3>
+                  <span>DevOps Engineer</span>
+                </div>
+              </div>
+            </div>
+
+
+
+
 
           </div>
         </div>
