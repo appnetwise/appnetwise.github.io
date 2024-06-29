@@ -4,7 +4,7 @@ import logo from "../../images/logo1.svg"
 import footerMap from "../../images/footer-map.png"
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
+  // const currentYear = new Date().getFullYear()
 
   return (
     <footer className="footer-area bg-color">
@@ -66,6 +66,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="/testimonials">Testimonials</Link>
+                </li>
+                <li>
+                  <Link to="/team">Team</Link>
                 </li>
               </ul>
             </div>

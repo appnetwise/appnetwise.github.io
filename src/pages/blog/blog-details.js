@@ -20,8 +20,8 @@ const BlogDetailsPage = ({ data }) => {
       <Navbar />
       <PageBanner
         pageTitle="Blog Details"
-        homePageText="Home"
-        homePageUrl="/"
+        homePageText="Blog"
+        homePageUrl="/blog"
         activePageText="Blog Details"
       />
       <BlogDetailsContent post={post} />

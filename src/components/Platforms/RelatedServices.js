@@ -52,7 +52,7 @@ const RelatedServices = () => {
         <Slider {...settings}>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon1} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon1} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/platforms/assets-management">Assets Management</Link>
@@ -70,7 +70,7 @@ const RelatedServices = () => {
           </div>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon2} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon2} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/platforms/carbon-market">Carbon Market</Link>
@@ -89,7 +89,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon3} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/platforms/green-it">Green IT</Link>

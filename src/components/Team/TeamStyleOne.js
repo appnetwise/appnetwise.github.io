@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import starIcon from "../../images/star-icon.png"
 import team1 from "../../images/team/d1.png"
 import team2 from "../../images/team/ni.png"
@@ -82,11 +82,6 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
-
-
-
-            
-          
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-scientist-item-box">
@@ -302,7 +297,7 @@ const TeamStyleOne = () => {
                   </ul>
                 </div>
                 <div className="content">
-                  <h3>Vijay Kumari </h3>
+                  <h3>Vijaya Kumari </h3>
                   <span>QA Engineer</span>
                 </div>
               </div>
