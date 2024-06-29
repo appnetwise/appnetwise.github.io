@@ -17,7 +17,7 @@ import team13 from "../../images/team/kakarthik.png"
 import team14 from "../../images/team/mo7860.png"
 import team15 from "../../images/team/sameena.png"
 import team16 from "../../images/team/quimuddin123.png"
-import team17 from "../../images/team/sohel1.png"
+import team17 from "../../images/team/sohel14.png"
 
 
 const TeamStyleOne = () => {
