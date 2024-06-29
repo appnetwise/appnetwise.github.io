@@ -446,7 +446,7 @@ const TeamStyleOne = () => {
                   <ul className="social">
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/quimuddin-shaik-740999314/"
+                        href="https://www.linkedin.com/in/burhanuddin-shaik-8a463b209/"
                         className="d-block"
                         target="_blank"
                         rel="noreferrer"
