@@ -57,7 +57,7 @@ const RelatedServices = () => {
         <Slider {...settings}>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon1} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon1} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/consulting-advisory">
@@ -76,7 +76,7 @@ const RelatedServices = () => {
           </div>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon2} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon2} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/cloud-adoption">Cloud Adoption</Link>
@@ -95,7 +95,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon3} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon3} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/api-enablement">API Enablement</Link>
@@ -114,7 +114,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon4} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon4} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/software-development">
@@ -135,7 +135,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon7} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon7} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/quality-assurance">Quality Assurance</Link>
@@ -154,7 +154,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon5} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon5} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/block-chain">Blockchain</Link>
@@ -172,7 +172,7 @@ const RelatedServices = () => {
           </div>
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon6} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon6} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/ai-ml">AI & ML</Link>
@@ -191,7 +191,7 @@ const RelatedServices = () => {
 
           <div className="single-services-box">
             <div className="icon">
-              <img src={icon8} alt="about" style={{ maxWidth: "30%" }} />
+              <img src={icon8} alt="about" style={{ maxWidth: "20%" }} />
             </div>
             <h3>
               <Link to="/services/devops">DevOps Practices</Link>

@@ -3,10 +3,6 @@ import ServiceSidebar from "./ServiceSidebar"
 import service from "../../images/g2.jpg"
 import service2 from "../../images/g1.jpg"
 
-import icon1 from "../../images/icons/businesscaseicon.png"
-import icon2 from "../../images/icons/tech-service.png"
-import icon3 from "../../images/icons/digital-transformation.png"
-
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -118,6 +114,12 @@ const ServiceDetailsContent = () => {
                           <li>
                             <span>
                               <i className="bx bx-check"></i> KEDA
+                            </span>
+                          </li>
+                          <li>
+                            <span>
+                              <i className="bx bx-check"></i> Cloud Carbon
+                              Footprint
                             </span>
                           </li>
                         </ol>

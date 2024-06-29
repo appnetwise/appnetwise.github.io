@@ -10852,6 +10852,7 @@ Footer Area CSS
   display: inline-block;
 }
 .single-footer-widget .footer-links-list li a:hover {
+  text-decoration: underline;
   color: #0c7264;
 }
 .single-footer-widget .footer-links-list li:last-child {
