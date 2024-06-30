@@ -103,7 +103,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                Copyright @2022 <strong>Appnetwise</strong> All rights reserved{" "}
+                Copyright @2022 <strong>AppNetWise</strong> All rights reserved{" "}
               </p>
             </div>
 

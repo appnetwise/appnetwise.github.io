@@ -21,7 +21,7 @@ const Testimonials = () => {
             </span>
             <h2>What Our Clients are Saying?</h2>
             <p>
-              At <b>Appnetwise</b>, we value our clients' trust and take pride
+              At <b>AppNetWise</b>, we value our clients' trust and take pride
               in exceeding their expectations with high-quality solutions. Don't
               just take our word for it -here's what some of our clients say.
             </p>
@@ -53,7 +53,7 @@ const Testimonials = () => {
               >
                 <img src={user1} className="shadow-sm" alt="testimonials" />
                 <p>
-                  Collaborating with Appnetwise has been a transformative
+                  Collaborating with AppNetWise has been a transformative
                   experience for us. Their team's adaptability and profound
                   technical expertise in cloud-native solutions, custom software
                   development, and DevOps have been exceptional. What truly sets
@@ -78,7 +78,7 @@ const Testimonials = () => {
               >
                 <img src={user2} className="shadow-sm" alt="testimonials" />
                 <p>
-                  Having Appnetwise on the build team as been a real boon to the
+                  Having AppNetWise on the build team as been a real boon to the
                   delivery programme. Their professionalism and delivery cadence
                   has really been something. Even though they are based in
                   India, we found that their flexibility to work outside of
