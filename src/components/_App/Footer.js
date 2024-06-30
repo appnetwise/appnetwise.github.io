@@ -23,7 +23,7 @@ const Footer = () => {
               <ul className="social-link">
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/appnetwise/"
+                    href="https://www.linkedin.com/company/AppNetWise/"
                     className="d-block"
                     target="_blank"
                     rel="noreferrer"

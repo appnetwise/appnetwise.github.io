@@ -25,7 +25,7 @@ const TermsOfServicePage = () => {
                 <h3>Terms & Conditions</h3>
                 <p>
                   These Terms & Conditions ("Terms") govern your use of our
-                  website and services provided by Appnetwise. By accessing or
+                  website and services provided by AppNetWise. By accessing or
                   using our website, you agree to be bound by these Terms.
                 </p>
 

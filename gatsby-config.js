@@ -10,8 +10,8 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: `Appnetwise`,
-    description: `Appnetwise`,
+    title: `AppNetWise`,
+    description: `AppNetWise`,
     author: `@envytheme`,
     siteUrl: `https://rewy-gatsby.envytheme.com`,
   },
