@@ -93,7 +93,7 @@ const ServiceDetailsContent = () => {
                 <div>
                   <h2 className="main-banner-image">About this Platform</h2>
                   <p>
-                    At <b className="bold-text-color">Appnetwise</b>, we
+                    At <b className="bold-text-color">AppNetWise</b>, we
                     developed a cutting-edge Carbon Credits Trading Platform,
                     showcasing our expertise in creating{" "}
                     <b className="bold-text-color">
@@ -121,7 +121,7 @@ const ServiceDetailsContent = () => {
                     <b className="bold-text-color">Automation </b> efforts
                     included development and deployment workflows, pipelines,
                     and testing, accelerating development and minimizing errors.
-                    Appnetwise's expertise in carbon markets is demonstrated
+                    AppNetWise's expertise in carbon markets is demonstrated
                     through this sophisticated, secure, and efficient platform,
                     integrating key market players and advanced technologies.
                   </p>

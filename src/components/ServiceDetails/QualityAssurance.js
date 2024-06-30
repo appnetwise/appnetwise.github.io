@@ -83,7 +83,7 @@ const QualityAssurance = () => {
                     <div>
                       <h2 className="main-banner-image">About this Service</h2>
                       <p>
-                        At <b className="bold-text-color">Appnetwise</b>,
+                        At <b className="bold-text-color">AppNetWise</b>,
                         excellence is our standard. Our dedicated Quality
                         Assurance team meticulously ensures top-notch software
                         quality through rigorous test planning, precise
@@ -99,7 +99,7 @@ const QualityAssurance = () => {
                         your software is robust and ready for market. By
                         combining automated and manual testing methods, we
                         ensure thorough coverage and quick identification of
-                        issues. With Appnetwise, you can be confident that your
+                        issues. With AppNetWise, you can be confident that your
                         software will perform flawlessly under all conditions.
                       </p>
                     </div>
