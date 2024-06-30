@@ -41,7 +41,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/" onClick={handleLogoClick} className="navbar-brand">
                 <img src={logo1} alt="Logo" />
-                {/* <h1 style={{ color: "#0c7264" }}>APPNETWISE</h1> */}
+                {/* <h1 style={{ color: "#0c7264" }}>AppNetWise</h1> */}
               </Link>
 
               <button

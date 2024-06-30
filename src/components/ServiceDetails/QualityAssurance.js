@@ -83,7 +83,7 @@ const QualityAssurance = () => {
                     <div>
                       <h2 className="main-banner-image">About this Service</h2>
                       <p>
-                        At <b className="bold-text-color">Appnetwise</b>,
+                        At <b className="bold-text-color">AppNetWise</b>,
                         excellence is our standard. Our dedicated Quality
                         Assurance team meticulously ensures top-notch software
                         quality through rigorous test planning, precise
