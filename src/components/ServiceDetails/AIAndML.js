@@ -105,7 +105,7 @@ const AIAndML = () => {
                     <div>
                       <h2 className="main-banner-image">About this Service</h2>
                       <p>
-                        At <b className="bold-text-color">Appnetwise</b>, we
+                        At <b className="bold-text-color">AppNetWise</b>, we
                         specialize in AI and ML solutions tailored to our
                         clients' industries, driving innovation and efficiency.
                         With deep expertise, we craft bespoke strategies to meet

@@ -55,7 +55,7 @@ const Blockchain = () => {
                       <h2 className="main-banner-image">About this Service</h2>
 
                       <p>
-                        At <b className="bold-text-color">Appnetwise</b>, we're
+                        At <b className="bold-text-color">AppNetWise</b>, we're
                         dedicated to driving innovation and maximizing the
                         potential of blockchain technology. With a diverse skill
                         set and in-depth knowledge of various blockchain

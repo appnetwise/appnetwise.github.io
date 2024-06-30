@@ -4,7 +4,7 @@ import logo from "../../images/logo1.svg"
 import footerMap from "../../images/footer-map.png"
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
+  // const currentYear = new Date().getFullYear()
 
   return (
     <footer className="footer-area bg-color">
@@ -67,6 +67,9 @@ const Footer = () => {
                 <li>
                   <Link to="/testimonials">Testimonials</Link>
                 </li>
+                <li>
+                  <Link to="/team">Team</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -87,7 +90,9 @@ const Footer = () => {
                 </li> */}
                 <li>
                   <i className="bx bx-envelope"></i>
-                  <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+                  <a href="mailto:connect@appnetwise.com">
+                    connect@appnetwise.com
+                  </a>
                 </li>
               </ul>
             </div>
@@ -98,8 +103,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                Copyright @{currentYear} <strong>Appnetwise</strong> All rights
-                reserved{" "}
+                Copyright @2022 <strong>AppNetWise</strong> All rights reserved{" "}
               </p>
             </div>
 

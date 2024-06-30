@@ -25,7 +25,7 @@ const TermsOfServicePage = () => {
                 <h3>Terms & Conditions</h3>
                 <p>
                   These Terms & Conditions ("Terms") govern your use of our
-                  website and services provided by Appnetwise. By accessing or
+                  website and services provided by AppNetWise. By accessing or
                   using our website, you agree to be bound by these Terms.
                 </p>
 
@@ -61,8 +61,10 @@ const TermsOfServicePage = () => {
                 <h3>Contact Us</h3>
                 <p>
                   If you have any questions about these Terms, please contact us
-                  at
-                  <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+                  at{" "}
+                  <a href="mailto:connect@appnetwise.com">
+                    connect@appnetwise.com
+                  </a>
                 </p>
               </div>
             </div>

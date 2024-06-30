@@ -32,15 +32,18 @@ const Banner3 = () => {
               >
                 Offshore Engineering Team
               </h1>
-              <h5
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                data-aos-delay="300"
-              >
-                <span className="highlight highlight-button">BUILD</span>
-                <span className="highlight highlight-button">RUN</span>
-                <span className="highlight highlight-button">TRANSFER</span>
-              </h5>
+              <div className="banner-buttons">
+                <h6
+                  data-aos="fade-left"
+                  data-aos-duration="1200"
+                  data-aos-delay="300"
+                  style={{ display: "flex", gap: "30px" }}
+                >
+                  <span className="highlight highlight-button">BUILD</span>
+                  <span className="highlight highlight-button">RUN</span>
+                  <span className="highlight highlight-button">TRANSFER</span>
+                </h6>
+              </div>
               <p
                 data-aos="fade-right"
                 data-aos-duration="1200"
@@ -65,7 +68,7 @@ const Banner3 = () => {
               data-aos-duration="1200"
               data-aos-delay="400"
             >
-              <img src={bannerImg3} alt="banner" style={{ width: "100%" }} />
+              <img src={bannerImg3} alt="banner" style={{ width: "90%" }} />
             </div>
           </div>
         </div>

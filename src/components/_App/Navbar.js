@@ -217,39 +217,49 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link
                       to="#"
                       onClick={e => e.preventDefault()}
                       className="nav-link"
                     >
-                      Case Studies <i className="bx bx-chevron-down"></i>
+                      Platforms <i className="bx bx-chevron-down"></i>
                     </Link>
 
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          to="/case-studies"
+                          to="/platforms/assets-management"
                           activeClassName="active"
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                         >
-                          Case Studies
+                          Assets Management
                         </Link>
                       </li>
 
                       <li className="nav-item">
                         <Link
-                          to="/case-studies/case-studies-details"
+                          to="/platforms/carbon-market"
                           activeClassName="active"
                           onClick={() => setCollapsed(true)}
                           className="nav-link"
                         >
-                          Case Studies Details
+                          Carbon Market
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          to="/platforms/green-it"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          Green IT
                         </Link>
                       </li>
                     </ul>
-                  </li> */}
+                  </li>
 
                   {/* <li className="nav-item">
                     <Link

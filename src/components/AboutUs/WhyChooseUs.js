@@ -16,9 +16,9 @@ const WhyChooseUs = () => {
                 </span>
                 <h2>Why Choose Us?</h2>
                 <p>
-                  At <b>APPNETWISE</b>, we are team of innovative engineers with
-                  multiple years of expertise in Cloud adoption, Software
-                  engineering and FinTech.
+                  At <b className="bold-text-color">APPNETWISE</b>, we are team
+                  of innovative engineers with multiple years of expertise in
+                  Cloud adoption, Software engineering and FinTech.
                 </p>
                 <div className="inner-box">
                   <div className="single-item">

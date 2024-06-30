@@ -9459,7 +9459,7 @@ Page Title Area CSS
   position: absolute;
   bottom: 10%;
   z-index: -1;
-  right: 30px;
+  right: 400px;
   animation: rotate3d 4s linear infinite;
   opacity: 0.25;
 }
@@ -10852,6 +10852,7 @@ Footer Area CSS
   display: inline-block;
 }
 .single-footer-widget .footer-links-list li a:hover {
+  text-decoration: underline;
   color: #0c7264;
 }
 .single-footer-widget .footer-links-list li:last-child {
@@ -11023,7 +11024,7 @@ Go Top CSS
 
 .slider-dots {
   position: relative;
-  bottom: 90px;
+  bottom: 110px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -11052,9 +11053,9 @@ Go Top CSS
   border: 2px solid #0c7264;
   display: inline-block;
   background-color: transparent;
-  /* background-color: #f8faff; */
+
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  padding: 10px 20px;
+  padding: 5px 20px;
   margin: 0 5px;
   border-radius: 5px;
   text-align: center;
@@ -11084,4 +11085,10 @@ Go Top CSS
 }
 .highlight-button:hover {
   color: #fff;
+}
+
+.banner-buttons {
+  display: flex;
+
+  justify-content: space-between !important;
 }

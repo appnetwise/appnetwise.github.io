@@ -23,7 +23,7 @@ const PrivacyPolicyPage = () => {
             <div className="col-lg-8 col-md-12">
               <div className="privacy-policy-content">
                 <p>
-                  Thank you for visiting Appnetwise ("we", "us", "our"). This
+                  Thank you for visiting AppNetWise ("we", "us", "our"). This
                   Privacy Policy describes how we collect, use, and disclose
                   information about you through our website and services.
                 </p>
@@ -80,7 +80,9 @@ const PrivacyPolicyPage = () => {
                 <p>
                   If you have any questions about this Privacy Policy, please
                   contact us at{" "}
-                  <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+                  <a href="mailto:connect@appnetwise.com">
+                    connect@appnetwise.com
+                  </a>
                 </p>
               </div>
             </div>

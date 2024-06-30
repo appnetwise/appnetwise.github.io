@@ -157,7 +157,7 @@ const DevOps = () => {
                           About this Service
                         </h2>
                         <p>
-                          At<b className="bold-text-color"> Appnetwise</b>, we
+                          At<b className="bold-text-color"> AppNetWise</b>, we
                           understand DevOps vital role in modern software
                           development and deployment. Our DevOps solutions
                           empower businesses to streamline processes, accelerate
@@ -168,7 +168,7 @@ const DevOps = () => {
                         </p>
                         <p>
                           With our expertise and customer-centric approach, we
-                          deliver tailored DevOps solutions. Trust Appnetwise to
+                          deliver tailored DevOps solutions. Trust AppNetWise to
                           optimize processes, accelerate delivery, and foster
                           collaboration, ensuring your success in today's
                           digital landscape.
@@ -234,7 +234,7 @@ const DevOps = () => {
               </div>
               <div className="ptb-70">
                 <h2 className="main-banner-image">
-                  Why Choose Appnetwise for DevOps Consulting?
+                  Why Choose AppNetWise for DevOps Consulting?
                 </h2>
                 <div className="row pt-40 justify-content">
                   <div
