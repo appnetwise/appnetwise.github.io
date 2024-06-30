@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appnetwise
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: appnetwise
+  template:
+    metadata:
+      labels:
+        app: appnetwise
+    spec:
+      containers:
+      - name: appnetwise
+        image: anwapplication.azurecr.io/anw:v1
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: appnetwise-service
+spec:
+  selector:
+    app: appnetwise
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+  type: LoadBalancer
+
