@@ -4,6 +4,8 @@ import Seo from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner"
 import TeamStyleOne from "../components/Team/TeamStyleOne"
+import TeamStyleTwo from "../components/Team/TeamStyleTwo"
+import TeamStyleThree from "../components/Team/TeamStyleThree"
 import Footer from "../components/_App/Footer"
 
 const TeamPage = () => {
@@ -19,6 +21,9 @@ const TeamPage = () => {
       />
 
       <TeamStyleOne />
+      <TeamStyleThree />
+      <TeamStyleTwo />
+
 
       <Footer />
     </Layout>

@@ -18,6 +18,8 @@ import team14 from "../../images/team/mo7860.png"
 import team15 from "../../images/team/sameena.png"
 import team16 from "../../images/team/quimuddin123.png"
 import team17 from "../../images/team/sohel14.png"
+import team18 from "../../images/team/gopi1.png"
+
 
 
 const TeamStyleOne = () => {
@@ -457,6 +459,33 @@ const TeamStyleOne = () => {
                 </div>
               </div>
             </div>
+
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-scientist-item-box">
+                <div className="image">
+                  <img src={team18} alt="team" />
+
+                  <ul className="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/gopi-akisetti/"
+                        className="d-block"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="content">
+                  <h3>Gopi </h3>
+                  <span>Backen Developer</span>
+                </div>
+              </div>
+            </div>
+
 
 
 
