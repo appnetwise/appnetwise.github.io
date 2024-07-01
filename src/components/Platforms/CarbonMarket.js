@@ -6,10 +6,6 @@ import service2 from "../../images/c3.jpg"
 import service3 from "../../images/c7.png"
 import SliderComponent from "./SliderComponent"
 
-import icon1 from "../../images/icons/businesscaseicon.png"
-import icon2 from "../../images/icons/tech-service.png"
-import icon3 from "../../images/icons/digital-transformation.png"
-
 const ServiceDetailsContent = () => {
   const slidesData = [
     {
