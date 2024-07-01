@@ -4,7 +4,7 @@ import Seo from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner"
 import AboutUsContent from "../components/AboutUs/AboutUsContent"
-// import OurHistory from "../components/AboutUs/OurHistory"
+
 import WhyChooseUs from "../components/AboutUs/WhyChooseUs"
 import HowItWork from "../components/AboutUs/HowItWork"
 
@@ -23,8 +23,6 @@ const AboutUsPage = () => {
       />
 
       <AboutUsContent />
-
-      {/* <OurHistory /> */}
 
       <WhyChooseUs />
 
