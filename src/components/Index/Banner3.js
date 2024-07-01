@@ -37,7 +37,7 @@ const Banner3 = () => {
                   data-aos="fade-left"
                   data-aos-duration="1200"
                   data-aos-delay="300"
-                  style={{ display: "flex", gap: "30px" }}
+                  className="banner-btn-gap"
                 >
                   <span className="highlight highlight-button">BUILD</span>
                   <span className="highlight highlight-button">RUN</span>

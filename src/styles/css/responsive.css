@@ -286,6 +286,13 @@
   .banner-image {
     margin-top: 55px;
   }
+  .banner-btn-gap {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
   .hero-banner {
     padding-top: 170px;
     padding-bottom: 90px;
