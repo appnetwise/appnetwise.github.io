@@ -18,7 +18,7 @@ const TeamStyleThree = () => {
               <img src={starIcon} alt="team" />
               Team Members
             </span>
-            <h2>Our Partners & Advisories</h2>
+            <h2>Our Partners & Advisors</h2>
           </div>
 
           <div className="row justify-content">
