@@ -3,15 +3,19 @@ kind: Ingress
 metadata:
   name: appnetwise-ingress
   annotations:
-    cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    # nginx.ingress.kubernetes.io/rewrite-target: /
+    cert-manager.io/acme-challenge-type: dns01
+    cert-manager.io/cluster-issuer: letsencrypt-azure
+  labels:
+    kustomize.toolkit.fluxcd.io/name: appnetwise.github.io
+    kustomize.toolkit.fluxcd.io/namespace: flux-system
 spec:
   rules:
-  - host: https://appnetwise.com/
+  - host: appnetwise.com
     http:
       paths:
       - path: /
-        pathType: Prefix
+        #pathType: Prefix
+        pathType: ImplementationSpecific
         backend:
           service:
             name: appnetwise-service
