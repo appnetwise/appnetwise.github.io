@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /404
+Disallow: /privacy-policy
 Sitemap: https://appnetwise.com/sitemap-0.xml
 Host: https://appnetwise.com
